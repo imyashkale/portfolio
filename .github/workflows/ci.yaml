@@ -25,6 +25,11 @@ jobs:
     - name: Build MkDocs Site
       run: |
         mkdocs build
+    
+    - name: Priting It Out
+      run: |
+        echo ${{ secrets.AWS_ROLE_TO_ASSUME }}
+        echo ${{ secrets.AWS_REGION }}
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
