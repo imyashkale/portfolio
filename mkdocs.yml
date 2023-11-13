@@ -1,0 +1,62 @@
+site_name: Imyashkale
+repo_url: https://github.com/imyashkale/imyashkale
+nav:
+  - Home: index.md
+  - Kubernetes:
+    - Name: kubernetes/pods/name.md
+theme:
+  name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: Copyright &copy; Yash Kale
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/imyashkale
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/imyashkale/
