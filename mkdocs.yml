@@ -5,6 +5,9 @@ nav:
   - Home: index.md
   - Kubernetes:
     - Overview: kubernetes/index.md
+  - CI/CD:
+    - Overview: cicd/index.md
+    - Github Actions: cicd/github-actions/imyashkale-site-deployment.md
   - Others:
     - MKDocs: others/mkdocs.md
     - AcloudGuru: others/acloudguru.md
