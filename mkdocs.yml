@@ -37,6 +37,7 @@ theme:
     - content.code.copy
     - content.tabs.link
 
+
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
