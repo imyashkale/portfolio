@@ -3,7 +3,12 @@ name: Deploy MkDocs to S3 and Invalidate CloudFront
 on:
   push:
     branches:
-      - master  # or your default branch
+      - master
+
+env:
+  PYTHON_VERSION: '3.x'   
+  AWS_REGION: 'us-east-1'
+  S3_BUCKET_NAME: 'imyashkale-portfolio'
 
 jobs:
   deploy:
@@ -16,30 +21,26 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'  # specify the Python version
+        python-version: ${{ env.PYTHON_VERSION }}
 
-    - name: Install MkDocs with Material Theme and Extensions
+    - name: Install Dependencies
       run: |
         pip install mkdocs mkdocs-material pymdown-extensions
 
     - name: Build MkDocs Site
       run: |
         mkdocs build
-    
-    - name: Priting It Out
-      run: |
-        echo ${{ secrets.AWS_ROLE_TO_ASSUME }}
-        echo ${{ secrets.AWS_REGION }}
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-        aws-region: ${{ secrets.AWS_REGION }}
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ env.AWS_REGION }}
 
     - name: Sync Directory to S3
       run: |
-        aws s3 sync site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }}/ --delete
+        aws s3 sync site/ s3://${{ env.S3_BUCKET_NAME }}/ --delete
 
     - name: Invalidate CloudFront Distribution
       run: |
