@@ -1,4 +1,4 @@
-name: Deploy MkDocs to S3 and Invalidate CloudFront
+name: Build and Deploy Portfilio
 
 on:
   push:
@@ -6,12 +6,12 @@ on:
       - master
 
 env:
-  PYTHON_VERSION: '3.x'   
-  AWS_REGION: 'us-east-1'
+  PYTHON_VERSION: '3.x' 
+  AWS_REGION: 'ap-south-1'
   S3_BUCKET_NAME: 'imyashkale-portfolio'
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,8 +31,29 @@ jobs:
       run: |
         mkdocs build
 
+    # Upload the site directory as an artifact for the deploy job to use
+    - name: Upload Site to Artifact Storage
+      uses: actions/upload-artifact@v2
+      with:
+        name: site
+        path: site/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Download Site from Artifact Storage
+      uses: actions/download-artifact@v2
+      with:
+        name: site
+        path: site
+
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v4.0.1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
