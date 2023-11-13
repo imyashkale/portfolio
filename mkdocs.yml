@@ -1,9 +1,10 @@
 site_name: Imyashkale
 repo_url: https://github.com/imyashkale/imyashkale
+site_url: https://imyashkale.com
 nav:
   - Home: index.md
   - Kubernetes:
-    - Name: kubernetes/pods/name.md
+    - Name: kubernetes/pods/name
 theme:
   name: material
   palette: 
