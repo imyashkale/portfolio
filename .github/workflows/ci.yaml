@@ -18,9 +18,9 @@ jobs:
       with:
         python-version: '3.x'  # specify the Python version
 
-    - name: Install Dependencies
+    - name: Install MkDocs with Material Theme and Extensions
       run: |
-        pip install mkdocs
+        pip install mkdocs mkdocs-material pymdown-extensions
 
     - name: Build MkDocs Site
       run: |
