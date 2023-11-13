@@ -4,7 +4,7 @@ site_url: https://imyashkale.com
 nav:
   - Home: index.md
   - Kubernetes:
-    - Name: kubernetes/pods/name/index.html
+    - Name: kubernetes/pods/name
     
 theme:
   name: material
