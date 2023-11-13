@@ -3,7 +3,6 @@
 ## Contact Information
 
 - **Location:** Bengaluru, India 560037
-- **Phone:** +91 9975081639
 - **Email:** [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
 
 ## Summary
@@ -23,6 +22,14 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 - Docker
 - Kubernetes
 - MySQL / MongoDB / DynamoDB
+
+## Certifications
+
+- [AWS Certified Solutions Architect – Associate (Issued July 2023)](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633)
+- [AWS Certified Developer - Associate (Issued Sept 2023)](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25)
+- [AWS Certified Cloud Practitioner (Issued Dec 2022)](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)
+- [HashiCorp Certified: Terraform Associate (003)](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile)
+
 
 ## Experience
 
@@ -47,12 +54,6 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 **Bachelor of Science: Computer Science Engineering** - August 2022
 Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
-## Certifications
-
-- AWS Certified Solutions Architect – Associate (Issued July 2023)
-- AWS Certified Developer - Associate (Issued Sept 2023)
-- AWS Certified Cloud Practitioner (Issued Dec 2022)
-
 ## Languages
 
 - Marathi: First Language
@@ -63,4 +64,5 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 - [LinkedIn](https://www.linkedin.com/in/imyashkale/)
 - [GitHub](https://github.com/imyashkale)
+- [Credly - Certifications](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)
 - [Personal Website](https://imyashkale.com)

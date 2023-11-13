@@ -1,10 +1,13 @@
 site_name: Imyashkale
-repo_url: https://github.com/imyashkale/imyashkale
+repo_url: https://github.com/imyashkale/portfolio
 site_url: https://imyashkale.com
 nav:
   - Home: index.md
   - Kubernetes:
-    - Name: kubernetes/pods/name
+    - Overview: kubernetes/index.md
+  - Others:
+    - MKDocs: others/mkdocs.md
+    - AcloudGuru: others/acloudguru.md
     
 theme:
   name: material
