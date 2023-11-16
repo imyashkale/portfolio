@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Kubernetes:
     - Overview: kubernetes/index.md
+    - CKAD Kubectl Cheatsheet: kubernetes/ckad-kubectl-cheatsheet.md
   - CI/CD:
     - Overview: cicd/index.md
     - Github Actions: cicd/github-actions/imyashkale-site-deployment.md
@@ -37,11 +38,13 @@ theme:
     - navigation.tracking
     - navigation.top
     - toc.integrate
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+
 
 
 markdown_extensions:
