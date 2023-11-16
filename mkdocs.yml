@@ -4,11 +4,12 @@ site_url: https://imyashkale.com
 nav:
   - Home: index.md
   - Kubernetes:
-    - Overview: kubernetes/index.md
-    - CKAD Kubectl Cheatsheet: kubernetes/ckad-kubectl-cheatsheet.md
+    - Index: kubernetes/index.md
+    - CKAD Kubectl Cheat Sheet: kubernetes/ckad-cheat-sheet.md
+    - CKAD YAML Samples: kubernetes/ckad-sample-yamls.md
   - CI/CD:
-    - Overview: cicd/index.md
-    - Github Actions: cicd/github-actions/imyashkale-site-deployment.md
+    - Index: cicd/index.md
+    - Github Actions: cicd/github-actions/mkdocs-deployment.md
   - Others:
     - MKDocs: others/mkdocs.md
     - AcloudGuru: others/acloudguru.md

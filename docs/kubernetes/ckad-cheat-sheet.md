@@ -1,5 +1,31 @@
 # CKAD kubectl Cheat Sheet
 
+---
+
+## 0. Context Management
+
+Switching and Managing Kubernetes Contexts
+
+### 0.1 View Current Context
+
+```bash
+kubectl config current-context
+```
+
+### 0.2 List All Contexts
+
+```bash
+kubectl config get-contexts
+```
+
+### 0.3 Switch Context
+
+```bash
+kubectl config use-context my-context
+```
+
+- `my-context`: Name of the context to switch to.
+
 ## 1. Pods
 
 Creating and Managing Pods
@@ -187,16 +213,10 @@ kubectl port-forward my-pod 8080:80
 
 - `8080:80`: Forwards local port 8080 to the Pod's port 80.
 
-### 10.4 Copy Files
-
- to/from a Container
+### 10.4 Copy Files to/from a Container
 
 ```bash
 kubectl cp /path/on/local/file.txt my-pod:/path/in/container/file.txt
 ```
 
 Copies a file from the local filesystem to a container.
-
----
-
-Remember to understand the context and options for each command during the exam. Always ensure you are operating in the correct namespace and with the right resources.
