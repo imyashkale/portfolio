@@ -32,13 +32,13 @@ jobs:
       run: |
         mkdocs build
 
-    - name: Upload Site to Artifact Storage
+    - name: Upload Site and Static Content to Artifact Storage
       uses: actions/upload-artifact@v3.1.3
       with:
-        name: site-artifact
+        name: website-artifact
         path: |
-          site/
-          static
+          site/*
+          static/*
 
   deploy:
     needs: build
@@ -48,11 +48,11 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Download Site from Artifact Storage
+    - name: Download Website from Artifact Storage
       uses: actions/download-artifact@v3.0.2
       with:
-        name: site-artifact
-        path: site
+        name: website-artifact
+        path: deployment
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4.0.1
@@ -63,7 +63,7 @@ jobs:
 
     - name: Sync Directory to S3
       run: |
-        aws s3 sync site s3://${{ env.S3_BUCKET_NAME }}/ --delete
+        aws s3 sync deployment s3://${{ env.S3_BUCKET_NAME }}/ --delete
 
     - name: Invalidate CloudFront Distribution
       run: |
