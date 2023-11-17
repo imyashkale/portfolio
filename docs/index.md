@@ -8,8 +8,7 @@ A passionate software developer specializing in Golang, AWS, and Kubernetes. Exp
 
 - **Location:** Bengaluru, India 560037
 - **Email:** [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
-
-[Download My Resume :fontawesome-solid-download:](../static/resume/Yash_Kale_Resume.pdf){: .md-button download="Yash_Kale_Resume.pdf"}
+- [Download My Resume :fontawesome-solid-download:](../static/resume/Yash_Kale_Resume.pdf){: .md-button download="Yash_Kale_Resume.pdf"}
 
 ---
 
