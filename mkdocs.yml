@@ -73,3 +73,7 @@ extra:
       link: https://github.com/imyashkale
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/imyashkale/
+
+  analytics:
+    provider: google
+    property: G-F39J9MP8DS
