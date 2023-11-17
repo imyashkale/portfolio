@@ -36,14 +36,11 @@ jobs:
     - name: Upload Site to Artifact Storage
       uses: actions/upload-artifact@v3.1.3
       with:
-        name: site
-        path: site/
+        name: |
+          site
+          static
+        path: /artifact
 
-    - name: Upload Static Content to Artifact Storage
-      uses: actions/upload-artifact@v3.1.3
-      with:
-        name: static
-        path: static/
         
 
   deploy:
@@ -57,14 +54,8 @@ jobs:
     - name: Download Site from Artifact Storage
       uses: actions/download-artifact@v3.0.2
       with:
-        name: site
-        path: site
-
-    - name: Download Static Content from Artifact Storage
-      uses: actions/download-artifact@v3.0.2
-      with:
-        name: static
-        path: static
+        name: artifact
+        path: artifact
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4.0.1
@@ -75,7 +66,7 @@ jobs:
 
     - name: Sync Directory to S3
       run: |
-        aws s3 sync / s3://${{ env.S3_BUCKET_NAME }}/ --delete
+        aws s3 sync /artifact s3://${{ env.S3_BUCKET_NAME }}/ --delete
 
     - name: Invalidate CloudFront Distribution
       run: |
