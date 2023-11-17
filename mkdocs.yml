@@ -5,6 +5,8 @@ site_description: >-
   a portfolio showcasing my journey in Golang, AWS, and Kubernetes.
   Here, I share my projects, insights, and experiences in software development.
   Dive into my world of coding and cloud solutions, where technology meets creativity.
+
+
 nav:
   - Home: index.md
   - Kubernetes:
