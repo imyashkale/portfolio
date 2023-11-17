@@ -22,6 +22,7 @@ nav:
     
 theme:
   name: material
+  favicon: terminal.png
   icon:
     logo: fontawesome/solid/terminal
   font:
