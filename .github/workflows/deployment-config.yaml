@@ -37,7 +37,7 @@ jobs:
       with:
         name: site-artifact
         path: |
-          site
+          site/
           static
 
   deploy:
