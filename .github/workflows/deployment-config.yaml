@@ -38,7 +38,7 @@ jobs:
         name: website-artifact
         path: |
           site/*
-          static/*
+          static
 
   deploy:
     needs: build
