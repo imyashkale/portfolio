@@ -2,4 +2,4 @@
 
 ---
 
-- [MKDocs Deployment - Using GitHub Actions](/cicd/github-actions/mkdocs-deployment)
+- [MKDocs Deployment - Using GitHub Actions](github-actions/mkdocs-deployment.md)

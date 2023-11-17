@@ -22,12 +22,13 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 - Go lang
 - AWS - Solutions Architect
+- Kubernetes
+- Terraform
 - Event Driven Architecture
 - Serverless Architecture
 - REST API / Websockets / SSE
 - Microservices
 - Docker
-- Kubernetes
 - MySQL / MongoDB / DynamoDB
 
 ## Certifications
@@ -35,8 +36,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 - [AWS Certified Solutions Architect – Associate (Issued July 2023)](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633)
 - [AWS Certified Developer - Associate (Issued Sept 2023)](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25)
 - [AWS Certified Cloud Practitioner (Issued Dec 2022)](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)
-- [HashiCorp Certified: Terraform Associate (003)](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile)
-
+- [HashiCorp Certified: Terraform Associate 003 (Issued Oct 2023)](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile)
 
 ## Experience
 

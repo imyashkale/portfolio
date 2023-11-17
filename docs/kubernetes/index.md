@@ -2,12 +2,12 @@
 
 ---
 
-- [CKAD Kubectl Cheat Sheet](/kubernetes/ckad-cheat-sheet)
-- [CKAD YAML Samples](/kubernetes/ckad-sample-yamls)
+- [CKAD Kubectl Cheat Sheet](ckad-cheat-sheet.md)
+- [CKAD YAML Samples](ckad-sample-yamls.md)
 
 ---
 
-## 01 [CKAD Kubectl Cheat Sheet](/kubernetes/ckad-cheat-sheet)
+## 01 [CKAD Kubectl Cheat Sheet](ckad-cheat-sheet.md)
 
 The CKAD Cheat Sheet is a comprehensive collection of essential `kubectl` commands. This cheat sheet includes:
 
@@ -17,7 +17,7 @@ The CKAD Cheat Sheet is a comprehensive collection of essential `kubectl` comman
 
 This cheat sheet serves as a quick reference guide to help you navigate through the tasks and challenges you'll encounter during the CKAD exam.
 
-## 02 [CKAD YAML Samples](/kubernetes/ckad-sample-yamls)
+## 02 [CKAD YAML Samples](ckad-sample-yamls.md)
 
 The CKAD Sample YAMLs section provides:
 
