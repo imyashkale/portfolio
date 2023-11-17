@@ -42,7 +42,7 @@ jobs:
       uses: actions/upload-artifact@v3.1.3
       with:
         name: website-artifact
-        path: temp-artifcat
+        path: temp-artifact/
 
   deploy:
     needs: build
