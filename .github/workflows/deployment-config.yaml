@@ -1,4 +1,4 @@
-name: Build and Deploy Portfilio
+name: Build and Deploy Portfolio
 
 on:
   push:
@@ -32,16 +32,13 @@ jobs:
       run: |
         mkdocs build
 
-    # Upload the site directory as an artifact for the deploy job to use
     - name: Upload Site to Artifact Storage
       uses: actions/upload-artifact@v3.1.3
       with:
-        name: |
+        name: site-artifact
+        path: |
           site
           static
-        path: /artifact
-
-        
 
   deploy:
     needs: build
@@ -54,8 +51,8 @@ jobs:
     - name: Download Site from Artifact Storage
       uses: actions/download-artifact@v3.0.2
       with:
-        name: artifact
-        path: artifact
+        name: site-artifact
+        path: site
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4.0.1
@@ -66,7 +63,7 @@ jobs:
 
     - name: Sync Directory to S3
       run: |
-        aws s3 sync /artifact s3://${{ env.S3_BUCKET_NAME }}/ --delete
+        aws s3 sync site s3://${{ env.S3_BUCKET_NAME }}/ --delete
 
     - name: Invalidate CloudFront Distribution
       run: |
