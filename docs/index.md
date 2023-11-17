@@ -1,8 +1,8 @@
-# Yash Kale
+# "I'm Yash: Exploring Code & Cloud"
 
 --- 
 
-## Contact Information
+## Yash Kale    
 
 - **Location:** Bengaluru, India 560037
 - **Email:** [imyashkale@gmail.com](mailto:imyashkale@gmail.com)

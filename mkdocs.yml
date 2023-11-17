@@ -1,5 +1,4 @@
-site_name: "I'm Yash: Exploring Code & Cloud" 
-repo_url: https://github.com/imyashkale/portfolio
+site_name: "I'm Yash Kale" 
 site_url: https://imyashkale.com
 site_description: >-
   Explore 'I'm Yash: Exploring Code & Cloud,'
@@ -21,6 +20,8 @@ nav:
     
 theme:
   name: material
+  icon:
+    logo: fontawesome/solid/terminal
   font:
     text: Fira Code
   palette: 
@@ -40,8 +41,6 @@ theme:
   
   features:
     - announce.dismiss
-    - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tooltips
@@ -55,7 +54,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
 
 markdown_extensions:
   - def_list
