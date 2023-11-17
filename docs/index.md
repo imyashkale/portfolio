@@ -1,11 +1,17 @@
-# "I'm Yash: Exploring Code & Cloud"
+# Welcome to My Portfolio
 
 ---
 
-## Yash Kale  
+## I'm Yash: Exploring Code & Cloud
+
+A passionate software developer specializing in Golang, AWS, and Kubernetes. Explore my projects, insights, and journey in the world of coding and cloud technologies.
 
 - **Location:** Bengaluru, India 560037
 - **Email:** [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
+
+[Download My Resume](../static/resume/Yash_Kale_Resume.pdf){ .md-button  :download="Yash_Kale_Resume.pdf"}
+
+---
 
 ## Summary
 
