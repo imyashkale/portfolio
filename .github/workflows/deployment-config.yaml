@@ -9,6 +9,7 @@ env:
   PYTHON_VERSION: '3.x' 
   AWS_REGION: 'ap-south-1'
   S3_BUCKET_NAME: 'imyashkale-portfolio'
+  GOOGLE_TAG_MANAGER: ${{ secrets.GOOGLE_TAG_MANAGER }}
 
 jobs:
   build:

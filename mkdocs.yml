@@ -84,4 +84,5 @@ extra:
 
   analytics:
     provider: google
-    property: G-F39J9MP8DS
+    property: !ENV GOOGLE_TAG_MANAGER
+
