@@ -44,6 +44,8 @@ theme:
   
   features:
     - announce.dismiss
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tooltips
@@ -57,7 +59,6 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate
 
 markdown_extensions:
   - def_list
