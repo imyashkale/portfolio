@@ -1,3 +1,8 @@
+---
+tags:
+  - Kubernetes
+  - CKAD
+---
 # CKAD kubectl Cheat Sheet
 
 ---

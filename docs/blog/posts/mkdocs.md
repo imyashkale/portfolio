@@ -3,7 +3,10 @@ title: MkDocs Site Setup Guide
 icon: material/newspaper-variant-outline
 date: 2023-11-18 13:34:01
 categories:
-  - Github Actions
+  - GitHub Actions
+tags:
+  - GitHub Actions
+  - CICD
 ---
 
 This guide provides a step-by-step approach to setting up an MkDocs site, specifically for the "Imyashkale" project. It includes system requirements, installation steps, and a detailed explanation of the `mkdocs.yml` configuration file.

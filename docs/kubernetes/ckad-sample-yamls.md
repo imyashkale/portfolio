@@ -1,3 +1,8 @@
+---
+tags:
+  - Kubernetes
+  - CKAD
+---
 # Essential Kubernetes YAML Samples for CKAD Exam
 
 ---
