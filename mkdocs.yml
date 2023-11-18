@@ -6,6 +6,8 @@ site_description: >-
   Here, I share my projects, insights, and experiences in software development.
   Dive into my world of coding and cloud solutions, where technology meets creativity.
 
+copyright: Copyright &copy; Yash Kale
+############################################## NAVIGATION ############################################
 
 nav:
   - Home: index.md
@@ -13,13 +15,11 @@ nav:
     - Index: kubernetes/index.md
     - CKAD Kubectl Cheat Sheet: kubernetes/ckad-cheat-sheet.md
     - CKAD YAML Samples: kubernetes/ckad-sample-yamls.md
-  - CI/CD:
-    - Index: cicd/index.md
-    - Github Actions: cicd/github-actions/mkdocs-deployment.md
-  - Others:
-    - MKDocs: others/mkdocs.md
-    - AcloudGuru: others/acloudguru.md
-    
+  - Blog:
+    - Index: blog/index.md
+
+############################################## THEME ############################################
+
 theme:
   name: material
   favicon: terminal.png
@@ -41,6 +41,8 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+
+############################################## FEATURES ############################################
   
   features:
     - announce.dismiss
@@ -60,27 +62,7 @@ theme:
     - search.suggest
     - toc.follow
 
-markdown_extensions:
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-copyright: Copyright &copy; Yash Kale
+############################################## EXTRA ############################################
 
 extra:
   social:
@@ -105,4 +87,36 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
+            
+############################################## PLUGINS ############################################
+
+plugins:
+  - tags:
+      enabled: true
+      tags_slugify_separator: "-"
+  - blog:
+      blog_toc: true
+      categories: true
+
+############################################## MARKDOWN EXTENSIONS ############################################
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
