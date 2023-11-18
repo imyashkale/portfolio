@@ -91,9 +91,7 @@ extra:
 ############################################## PLUGINS ############################################
 
 plugins:
-  - tags:
-      enabled: true
-      tags_slugify_separator: "-"
+  - search
   - blog:
       blog_toc: true
       categories: true
