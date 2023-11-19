@@ -13,6 +13,7 @@ nav:
   - Home: 
     - Home: index.md
     - Certifications: home/certifications.md
+    - Experience: home/experience.md
   - Kubernetes:
     - Index: kubernetes/index.md
     - CKAD Kubectl Cheat Sheet: kubernetes/ckad-cheat-sheet.md

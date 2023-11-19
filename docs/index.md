@@ -55,7 +55,8 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 - Design and develop REST APIs, microservices, and applications using Golang.
 - Work collaboratively with teams and stakeholders to deliver software solutions.
-- Participate in code reviews to enhance code quality.
+- Participate in code reviews to enhance code quality. 
+- [Continue](home/experience.md)
 
 ### Full Stack Software Engineer
 
@@ -64,6 +65,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 - Develop web applications using Python, Golang, Flask, and VueJS.
 - Design RESTful APIs for frontend and backend integration.
 - Ensure code quality and adherence to standards through code reviews.
+- [Continue](home/experience.md)
 
 ## Education
 
