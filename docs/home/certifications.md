@@ -1,1 +1,0 @@
-# Certification Purpose/Motivation
