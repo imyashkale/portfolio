@@ -18,25 +18,27 @@ I am a **Software Developer** at SRS Consulting Inc. with over 4 years of experi
 
 My commitment as a software developer is to deliver high-quality code, meet client expectations, and enjoy working on challenging projects that stretch the limits of technology. I thrive in team collaborations, bringing innovative solutions to complex problems.
 
-## Skills
+## Skills Matrix
 
-- Go lang
-- AWS - Solutions Architect
-- Kubernetes
-- Terraform
-- Event Driven Architecture
-- Serverless Architecture
-- REST API / Websockets / SSE
-- Microservices
-- Docker
-- MySQL / MongoDB / DynamoDB
+| Skill Categories          | Skills                                    |
+|---------------------------|-------------------------------------------|
+| Programming Languages     | Go lang                                   |
+| Cloud Solutions           | AWS - Solutions Architect                 |
+| Container Orchestration   | Kubernetes, Docker                        |
+| Infrastructure as Code    | Terraform                                 |
+| Architectural Styles      | Event Driven Architecture, Serverless Architecture |
+| API Development           | REST API, Websockets, SSE                 |
+| Software Architecture     | Microservices                             |
+| Databases                 | MySQL, MongoDB, DynamoDB                  |
 
 ## Certifications
 
-- [AWS Certified Solutions Architect – Associate (Issued July 2023)](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633)
-- [AWS Certified Developer - Associate (Issued Sept 2023)](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25)
-- [AWS Certified Cloud Practitioner (Issued Dec 2022)](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)
-- [HashiCorp Certified: Terraform Associate 003 (Issued Oct 2023)](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile)
+| Cert Name                                                                               | Issued Date | Purpose/Motivation                       |
+|---------------------------------------------------------------------------------------------|-------------|-----------------------------------------|
+| [HashiCorp Certified: Terraform Associate 003](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile) | Oct 2023    | [View](home/certifications.md)                       |
+| [AWS Certified Developer - Associate](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25) | Sept 2023   | [View](home/certifications.md)                      |
+| [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633) | July 2023   | [View](home/certifications.md)                       |
+| [AWS Certified Cloud Practitioner](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6) | Dec 2022    | [View](home/certifications.md)                       |
 
 ## Experience
 

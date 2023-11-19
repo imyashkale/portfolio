@@ -10,7 +10,9 @@ copyright: Copyright &copy; Yash Kale
 ############################################## NAVIGATION ############################################
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Home: index.md
+    - Certifications: home/certifications.md
   - Kubernetes:
     - Index: kubernetes/index.md
     - CKAD Kubectl Cheat Sheet: kubernetes/ckad-cheat-sheet.md
@@ -51,6 +53,7 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - content.tabs.link
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -102,6 +105,9 @@ plugins:
 ############################################## MARKDOWN EXTENSIONS ############################################
 
 markdown_extensions:
+  # For Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
