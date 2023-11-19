@@ -51,7 +51,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ### Software Engineer
 
-**SRS Business Solutions (India) Pvt. Ltd. (A Subsidiary of SRS Consulting Inc. USA)** - Bengaluru, India (October 2022 to Current)
+**[SRS Business Solutions (India) Pvt. Ltd. (A Subsidiary of SRS Consulting Inc. USA)](https://www.srsconsultinginc.com/index)** - Bengaluru, India (October 2022 to Current)
 
 - Design and develop REST APIs, microservices, and applications using Golang.
 - Work collaboratively with teams and stakeholders to deliver software solutions.
@@ -59,7 +59,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ### Full Stack Software Engineer
 
-**SimSol Technologies And Services Private Limited** - Mumbai, India (August 2019 to September 2022)
+**[SimSol Technologies And Services Private Limited](https://www.simsol.in)** - Mumbai, India (August 2019 to September 2022)
 
 - Develop web applications using Python, Golang, Flask, and VueJS.
 - Design RESTful APIs for frontend and backend integration.
