@@ -1,16 +1,23 @@
-# Welcome to My Portfolio
+# I'm Yash: Exploring Code & Cloud
 
 ---
-
-## I'm Yash: Exploring Code & Cloud
 
 A passionate software developer specializing in Golang, AWS, and Kubernetes. Explore my projects, insights, and journey in the world of coding and cloud technologies.
 
-- **Location:** Bengaluru, India 560037
-- **Email:** [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
-- [Download My Resume :fontawesome-solid-download:](../static/resume/Yash_Kale_Resume.pdf){: .md-button download="Yash_Kale_Resume.pdf"}
+- **Location:**  
+  Bengaluru, India 560037
 
----
+- **Email:**  
+  [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
+
+## My Resume
+
+I have detailed my professional experiences, skills, and accomplishments in my resume. You can download it for a more comprehensive overview.
+
+<!-- markdownlint-disable MD033 -->
+<div style="text-align: center;">
+    <a href="../static/resume/Yash_Kale_Resume.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+</div>
 
 ## Summary
 
@@ -33,7 +40,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ## Certifications
 
-| Cert Name                                                                               | Issued Date | Purpose/Motivation                       |
+| Cert Name                                                                               | Issued Date | Motivation                       |
 |---------------------------------------------------------------------------------------------|-------------|-----------------------------------------|
 | [HashiCorp Certified: Terraform Associate 003](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6/linked_in_profile) | Oct 2023    | [View](home/certifications.md)                       |
 | [AWS Certified Developer - Associate](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25) | Sept 2023   | [View](home/certifications.md)                      |
@@ -65,9 +72,11 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 ## Languages
 
-- Marathi: First Language
-- Hindi: Upper Intermediate
-- English: Upper Intermediate
+My linguistic skills span across multiple languages, enhancing my ability to communicate in diverse environments.
+
+- **Marathi:** First Language
+- **Hindi:** Upper Intermediate
+- **English:** Upper Intermediate
 
 ## Online Profiles
 
