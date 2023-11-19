@@ -12,8 +12,6 @@ A passionate software developer specializing in Golang, AWS, and Kubernetes. Exp
 
 ## My Resume
 
-> The Treasure Map to My Skills
-
 I have detailed my professional experiences, skills, and accomplishments in my resume. You can download it for a more comprehensive overview.
 
 <!-- markdownlint-disable MD033 -->
@@ -23,15 +21,11 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 ## Summary
 
-> A Byte-Sized Tale of a Code Whisperer
-
 I am a **Software Developer** at SRS Consulting Inc. with over 4 years of experience in **Golang**. My expertise spans across building scalable and efficient applications using Golang, with a keen focus on web development, networking, database access, and distributed systems. I am proficient in various Golang libraries and frameworks, AWS solutions, and I constantly seek out new tools and technologies to enhance my skills and stay updated in the industry.
 
 My commitment as a software developer is to deliver high-quality code, meet client expectations, and enjoy working on challenging projects that stretch the limits of technology. I thrive in team collaborations, bringing innovative solutions to complex problems.
 
 ## Skills Matrix
-
-> Where Code Meets Craft
 
 | Skill Categories          | Skills                                    |
 |---------------------------|-------------------------------------------|
@@ -45,8 +39,6 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 | Databases                 | MySQL, MongoDB, DynamoDB                  |
 
 ## Certifications
-
-> My League of Extraordinary Credentials
 
 ??? Success "HashiCorp Certified Terraform Associate 003"
     **Issued Date**: Oct 2023  
@@ -94,24 +86,16 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ## Education
 
-> The Launchpad of My Logic
-
 **Bachelor of Science: Computer Science Engineering** - August 2022
 Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 ## Languages
-
-> The Linguistic Libretto
-
-My linguistic skills span across multiple languages, enhancing my ability to communicate in diverse environments.
 
 :material-book-open-page-variant:{ .language } **Marathi:** First Language  
 :material-script-text:{ .language } **Hindi:** Upper Intermediate  
 :material-translate:{ .language } **English:** Upper Intermediate  
 
 ## Connect With Me
-
-> Find Me in the Tech Universe
 
 :material-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/imyashkale/)  
 :material-github:{ .github } [GitHub](https://github.com/imyashkale)  
