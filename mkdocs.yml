@@ -30,7 +30,8 @@ theme:
   icon:
     logo: fontawesome/solid/terminal
   font:
-    text: Fira Code
+    text: Roboto
+    code: Roboto Mono
   palette: 
     # Palette toggle for light mode
     - scheme: default
