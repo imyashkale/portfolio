@@ -30,7 +30,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 | Skill Categories          | Skills                                    |
 |---------------------------|-------------------------------------------|
 | Programming Languages     | Go lang                                   |
-| Cloud Solutions           | AWS - Solutions Architect                 |
+| Cloud Solutions           | AWS                 |
 | Container Orchestration   | Kubernetes, Docker                        |
 | Infrastructure as Code    | Terraform                                 |
 | Architectural Styles      | Event Driven Architecture, Serverless Architecture |
