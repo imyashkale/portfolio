@@ -29,7 +29,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 | Skill Categories          | Skills                                    |
 |---------------------------|-------------------------------------------|
-| Programming Languages     | Go lang                                   |
+| Programming Languages     | Go, Python                                    |
 | Cloud Solutions           | AWS                 |
 | Container Orchestration   | Kubernetes, Docker                        |
 | Infrastructure as Code    | Terraform                                 |
