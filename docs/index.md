@@ -40,28 +40,28 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ## Certifications
 
-???+ success "HashiCorp Certified Terraform Associate 003"
+??? success "HashiCorp Certified Terraform Associate 003"
     **Issued Date**: Oct 2023  
-    - **Credential ID**: [View on Credly](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6)  
-    <!-- - **Download Certificate**: <a href="../static/certifications/terraform-associate-certificate.pdf" download="Terraform Associate Certificate">Download Certificate</a>   -->
+    **Credential ID**: [View on Credly](https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6)  
+    <!-- **Download Certificate**: <a href="../static/certifications/terraform-associate-certificate.pdf" download="Terraform Associate Certificate">Download Certificate</a>   -->
     **Motivation**: This certification equipped me with advanced Terraform skills, enabling me to implement infrastructure as code for efficient, scalable, and repeatable cloud deployments. It has been crucial in automating cloud infrastructure, reducing manual errors, and speeding up deployment cycles in my projects.
 
-???+ success "AWS Certified Developer - Associate"
+??? success "AWS Certified Developer - Associate"
     **Issued Date**: Sept 2023  
-    - **Credential ID**: [View on Credly](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25)  
-    - **Download Certificate**: <a href="../static/certifications/developer-associate-certificate.pdf" download="developer-associate-certificate.pdf">Download Certificate</a>  
+    **Credential ID**: [View on Credly](https://www.credly.com/badges/7b875d7d-dc65-4bae-8659-15a253a4ae25)  
+    **Download Certificate**: <a href="../static/certifications/developer-associate-certificate.pdf" download="developer-associate-certificate.pdf">Download Certificate</a>  
     **Motivation**: Achieving this certification has deepened my understanding of AWS services, enhancing my ability to develop and maintain applications on AWS. It's been instrumental in optimizing cloud resources, ensuring security best practices, and integrating AWS services effectively in our development workflows.
 
-???+ success "AWS Certified Solutions Architect – Associate"
+??? success "AWS Certified Solutions Architect – Associate"
     **Issued Date**: July 2023  
-    - **Credential ID**: [View on Credly](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633)  
-    - **Download Certificate**: <a href="../static/certifications/solutions-architect-associate-certificate.pdf" download="solutions-architect-associate-certificate.pdf">Download Certificate</a>  
+    **Credential ID**: [View on Credly](https://www.credly.com/badges/31397bd2-239e-4dfa-9220-f1eed1488633)  
+    **Download Certificate**: <a href="../static/certifications/solutions-architect-associate-certificate.pdf" download="solutions-architect-associate-certificate.pdf">Download Certificate</a>  
     **Motivation**: This certification has been vital in my role, allowing me to design robust and scalable cloud architectures on AWS. It's helped in addressing challenges like high availability, disaster recovery, and cost-efficient scaling, thereby contributing to more resilient and efficient cloud solutions.
 
-???+ success "AWS Certified Cloud Practitioner"
+??? success "AWS Certified Cloud Practitioner"
     **Issued Date**: Dec 2022  
-    - **Credential ID**: [View on Credly](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)  
-    - **Download Certificate**: <a href="../static/certifications/cloud-practitioner-certificate.pdf" download="cloud-practitioner-certificate.pdf">Download Certificate</a>  
+    **Credential ID**: [View on Credly](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)  
+    **Download Certificate**: <a href="../static/certifications/cloud-practitioner-certificate.pdf" download="cloud-practitioner-certificate.pdf">Download Certificate</a>  
     **Motivation**: This foundational certification has been key in establishing a solid base in AWS cloud services. It's enabled me to effectively collaborate across teams by understanding AWS cloud concepts, core services, and operational best practices, thereby enhancing team synergy and cloud strategy development.
 
 ## Experience
