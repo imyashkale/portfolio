@@ -70,10 +70,18 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/imyashkale
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/imyashkale/
+    - icon: material/github
+      link: https://github.com/imyashkale
+    - icon: material/certificate
+      link: https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6
+    - icon: fontawesome/solid/code
+      link: https://leetcode.com/imyashkale/
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/imyashkale
+    - icon: fontawesome/solid/earth-asia
+      link: https://imyashkale.com
 
   analytics:
     provider: google
