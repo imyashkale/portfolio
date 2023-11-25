@@ -143,6 +143,11 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 
 - Expertise in crafting sophisticated web applications using Golang and VueJS.
 - Focus on robustness, scalability, and user experience.
+- Reduced processing time from 4 hours to 10 seconds using          multiprocessing.
+- Developed MIS Report Microservice for creating business reports.
+- Developed and deployed PAN Validation Microservice.
+- Technologies: Go, Python, RabbitMQ, Docker.
+- Proficient in AWS and Kubernetes for scalable, resilient cloud solutions.
 
 **RESTful API Design:**
 
@@ -167,23 +172,9 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 - Coordinated with multiple stakeholders, including bank officials.
 - Ensured timely delivery of complex projects.
 
-??? abstract "More About This Role"
+**Code Quality Assurance:**
 
-    **Code Quality Assurance:**
-    - Ensured high standards in code quality through rigorous code reviews.
-
-    **Simpay Project:**
-    - Reduced processing time from 4 hours to 10 seconds using multiprocessing.
-
-    **SimDox Project:**
-    - Developed MIS Report Microservice for creating business reports.
-
-    **SimSMART Project:**
-    - Developed and deployed PAN Validation Microservice for AxisBank.
-    - Technologies: Go, Python, RabbitMQ, Docker.
-
-    **Technical Proficiency:**
-    - Proficient in AWS and Kubernetes for scalable, resilient cloud solutions.
+- Ensured high standards in code quality through rigorous code reviews.
 
 ## Education
 
