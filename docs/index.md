@@ -81,12 +81,51 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 **<a href="https://www.simsol.in" target="_blank">SimSol Technologies And Services Private Limited</a>** - Mumbai, India (August 2019 to September 2022)
 
-- Develop web applications using Python, Golang, Flask, and VueJS.
-- Design RESTful APIs for frontend and backend integration.
+**Web Application Development:**
+
+- Expertise in crafting sophisticated web applications using Golang and VueJS.
+- Focus on robustness, scalability, and user experience.
+
+**RESTful API Design:**
+
+- Specialized in designing and implementing RESTful APIs for seamless frontend and backend integration.
+- Emphasis on performance and reliability.
+
+**AxisBank Co-Lending Application Project:**
+
+- Led the development of a high-performance Co-Lending application.
+- Frontend: VueJS
+- Backend: Go REST API
+- Database: MongoDB & Oracle Database.
+- Improved loan processing efficiency for AxisBank.
+
+**Team Development and Training:**
+
+- Mentored team members in latest technologies and methodologies.
+- Ensured team's capability to meet project requirements effectively.
+
+**Stakeholder Management:**
+
+- Coordinated with multiple stakeholders, including bank officials.
+- Ensured timely delivery of complex projects.
 
 ??? abstract "More About This Role"
-    - Ensure code quality and adherence to standards through code reviews.
-    - Further details about the projects and achievements...
+
+    **Code Quality Assurance:**
+    - Ensured high standards in code quality through rigorous code reviews.
+
+    **Simpay Project:**
+    - Reduced processing time from 4 hours to 10 seconds using multiprocessing.
+
+    **SimDox Project:**
+    - Developed MIS Report Microservice for creating business reports.
+
+    **SimSMART Project:**
+    - Developed and deployed PAN Validation Microservice for AxisBank.
+    - Technologies: Go, Python, RabbitMQ, Docker.
+
+    **Technical Proficiency:**
+    - Proficient in AWS and Kubernetes for scalable, resilient cloud solutions.
 
 ## Education
 
