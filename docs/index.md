@@ -124,6 +124,7 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 
 - Designed custom data migration scripts executed on Lambda to transfer data from RDS to DynamoDB, ensuring a seamless transition.
 - Implemented AWS Secret Manager for secure secrets management, enhancing data protection.
+- Migrated data from AWS EFS to S3 using DataSync service, ensuring data accessibility and efficient storage solutions.
 
 **CI/CD Optimization:**
 
@@ -131,12 +132,8 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 
 **Cost Reduction and Efficiency:**
 
-- Achieved a remarkable cost reduction of 90%, reducing expenses from $1000 to $100, by eliminating cost-heavy services.
+- Achieved a remarkable cost reduction of 90%, reducing expenses from $1000 to $100, by implementing serverless architecture.
 - Played a key role in configuring and designing services to enhance efficiency and reduce operational overhead.
-
-**Data Management and Migration:**
-
-- Migrated data from AWS EFS to S3 using DataSync service, ensuring data accessibility and efficient storage solutions.
 
 ### Full Stack Software Engineer
 
