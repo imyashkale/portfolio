@@ -70,21 +70,20 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 **<a href="https://www.relanto.ai" target="_blank">Relanto Global Pvt Ltd</a>** - Bengaluru, India (Aug 2023 to Present)
 
-At Relanto, a service-based company, I am deployed as a client-facing developer at Cisco. From the Cisco location, I am actively involved in two major projects: the development of the Badging-Service for the Cisco U Platform and the LearningSpace project.
+At Relanto, a service-based company, I am deployed as a client-facing developer at Cisco. From the Cisco location, I am actively involved in two major projects: the development of the Badging-Service for the [Cisco U Platform](https://u.cisco.com){:target="_blank"} and the [LearningSpace](https://learningspace.cisco.com){:target="_blank"} project.
 
 **Observability Enhancement in Microservices for Cisco U Platform:**
 
-- Implemented observability enhancements across multiple Golang-based microservices using OpenTelemetry, significantly improving monitoring and debugging capabilities for the Cisco U Platform.
-- Managed the configuration and connection with AWS X-Ray to facilitate efficient trace storage and analysis, thereby improving system visibility and diagnostic capabilities.
+- Implemented observability enhancements across multiple Golang-based microservices using OpenTelemetry, significantly improving monitoring and debugging capabilities for the [Cisco U Platform](https://u.cisco.com){:target="_blank"}.
 
 **Development of Badging-Service for Cisco U Platform:**
 
-- Developed the Badging-Service, a specialized microservice for issuing Credly badges, activated by Kafka topic  events, as part of the Cisco U Platform.
+- Developed the Badging-Service, a specialized microservice for issuing Credly badges, activated by Kafka topic  events, as part of the [Cisco U Platform](https://u.cisco.com){:target="_blank"}.
 - Responsible for the complete architecture and design of the service, ensuring smooth integration and communication with other microservices within the Kubernetes cluster.
 - Focused on efficient service deployment and operation, with an emphasis on interaction with microservices.
 - Migrated parts of the service that were initially written in C# to Golang, involving a comprehensive understanding of the existing codebase and requirements to ensure seamless functionality and integration.
 
-!!! tip "Professional Transition"
+!!! danger "Professional Transition"
     As part of a strategic organizational restructuring, my employment with SRS Business Solutions Pvt Ltd. was officially transferred to Relanto Global Pvt Ltd., effective from 1st August 2023. This transfer, aligned with the company's focus on innovation and business value-driven solutions, occurred without any interruption in service.
 
 <!-- markdownlint-disable MD024 -->
