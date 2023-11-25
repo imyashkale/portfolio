@@ -68,7 +68,17 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 ### Software Engineer
 
-**<a href="https://www.srsconsultinginc.com/index" target="_blank">SRS Business Solutions (India) Pvt. Ltd. (A Subsidiary of SRS Consulting Inc. USA)</a>** - Bengaluru, India (October 2022 to Current)
+**<a href="https://www.relanto.ai" target="_blank">Relanto Global Pvt Ltd</a>** - Bengaluru, India (Aug 2023 to Present)
+
+- Design and develop REST APIs, microservices, and applications using Golang.
+
+!!! tip "Professional Transition"
+    As part of a strategic organizational restructuring, my employment with SRS Business Solutions Pvt Ltd. was officially transferred to Relanto Global Pvt Ltd., effective from 1st August 2023. This transfer, aligned with the company's focus on innovation and business value-driven solutions, occurred without any interruption in service.
+
+<!-- markdownlint-disable MD024 -->
+### Software Engineer  
+
+**<a href="https://www.srsconsultinginc.com/index" target="_blank">SRS Business Solutions (India) Pvt. Ltd. (A Subsidiary of SRS Consulting Inc. USA)</a>** - Bengaluru, India (October 2022 to July 2023)
 
 - Design and develop REST APIs, microservices, and applications using Golang.
 - Work collaboratively with teams and stakeholders to deliver software solutions.
