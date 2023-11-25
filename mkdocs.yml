@@ -113,6 +113,11 @@ plugins:
 ############################################## MARKDOWN EXTENSIONS ############################################
 
 markdown_extensions:
+  # For Formatting. https://squidfunk.github.io/mkdocs-material/reference/formatting/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
   # For Tabs
   - pymdownx.tabbed:
       alternate_style: true

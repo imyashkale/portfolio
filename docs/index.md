@@ -70,7 +70,7 @@ My commitment as a software developer is to deliver high-quality code, meet clie
 
 **<a href="https://www.relanto.ai" target="_blank">Relanto Global Pvt Ltd</a>** - Bengaluru, India (Aug 2023 to Present)
 
-At Relanto, a service-based company, I am deployed as a client-facing developer at Cisco. From the Cisco location, I am actively involved in two major projects: the development of the Badging-Service for the [Cisco U Platform](https://u.cisco.com){:target="_blank"} and the [LearningSpace](https://learningspace.cisco.com){:target="_blank"} project.
+At Relanto, a service-based company, I am deployed as a client-facing developer at Cisco. From the Cisco location, I am actively involved in two major projects: the development of the Badging-Service for the [Cisco U Platform](https://u.cisco.com){:target="_blank"} and the [Cisco LearningSpace](https://learningspace.cisco.com){:target="_blank"} project.
 
 **Observability Enhancement in Microservices for Cisco U Platform:**
 
@@ -91,12 +91,52 @@ At Relanto, a service-based company, I am deployed as a client-facing developer 
 
 **<a href="https://www.srsconsultinginc.com/index" target="_blank">SRS Business Solutions (India) Pvt. Ltd. (A Subsidiary of SRS Consulting Inc. USA)</a>** - Bengaluru, India (October 2022 to July 2023)
 
-- Design and develop REST APIs, microservices, and applications using Golang.
-- Work collaboratively with teams and stakeholders to deliver software solutions.
+At SRS Consulting Inc., I work on three main projects with Cisco: [Cisco LearningSpace](https://learningspace.cisco.com){:target="_blank"}, [Cisco E Service Training](https://est.cisco.com){:target="_blank"}, and [Cisco U](https://u.cisco.com){:target="_blank"}. My role focuses on using Golang and AWS to create advanced software, helping to improve each project with new and effective technology.
 
-??? abstract "More About This Role"
-    - Participate in code reviews to enhance code quality.
-    - Additional responsibilities and achievements...
+{==
+
+Cisco E Services Training is exclusively accessible to Cisco employees and partners, and is not available for general public use.
+
+==}
+
+**1. Migrated Learningspace Application: [Cisco LearningSpace](https://learningspace.cisco.com){:target="_blank"}**
+
+- Solely responsible for transitioning the Learningspace application from Java to Golang.
+- Achieved a significant boost in system performance and efficiency through the migration.
+- Independently conducted a thorough analysis of project requirements.
+
+**2. REST API Development for Cisco U Platform: [Cisco U](https://u.cisco.com){:target="_blank"}**
+
+- Developed APIs for the Permission and Profile service, catering exclusively to the Cisco U Platform, including both front-end and service-to-service communication.
+- Conducted comprehensive planning and testing of these APIs to ensure optimal functionality and integration within the Cisco U ecosystem.
+- Implemented extensive table test cases using the Testify and Mocks packages, enhancing the reliability and performance of the APIs.
+- Focused on creating efficient testing frameworks to validate API functionality, contributing to the overall quality of the Cisco U services.
+
+**3. [Cisco E Service Training](https://est.cisco.com){:target="_blank"}**
+
+**Architected Serverless Transformation of EST Project:**
+
+- Successfully migrated the EST Project from a Java-based application with Liferay to a serverless architecture, addressing performance and security concerns.
+- Architected a serverless solution, leveraging API Gateway and Lambda with Golang for efficient operations.
+- Directly integrated API Gateway with DynamoDB, optimizing resource utilization and reducing costs significantly.
+
+**Data Migration and Security:**
+
+- Designed custom data migration scripts executed on Lambda to transfer data from RDS to DynamoDB, ensuring a seamless transition.
+- Implemented AWS Secret Manager for secure secrets management, enhancing data protection.
+
+**CI/CD Optimization:**
+
+- Transitioned Jenkins to AWS Native CI/CD tools, reducing operational costs and streamlining the development pipeline.
+
+**Cost Reduction and Efficiency:**
+
+- Achieved a remarkable cost reduction of 90%, reducing expenses from $1000 to $100, by eliminating cost-heavy services.
+- Played a key role in configuring and designing services to enhance efficiency and reduce operational overhead.
+
+**Data Management and Migration:**
+
+- Migrated data from AWS EFS to S3 using DataSync service, ensuring data accessibility and efficient storage solutions.
 
 ### Full Stack Software Engineer
 
