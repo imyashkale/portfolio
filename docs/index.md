@@ -21,9 +21,17 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 ## Summary
 
-I am a **Software Developer** at SRS Consulting Inc. with over 4 years of experience in **Golang**. My expertise spans across building scalable and efficient applications using Golang, with a keen focus on web development, networking, database access, and distributed systems. I am proficient in various Golang libraries and frameworks, AWS solutions, and I constantly seek out new tools and technologies to enhance my skills and stay updated in the industry.
+Welcome to my Website! I am Yash Kale, a passionate software developer with a strong focus on Golang, AWS, and Kubernetes. With over 4 years of industry experience, I specialize in crafting scalable, efficient applications that drive technological innovation. My expertise lies in:
 
-My commitment as a software developer is to deliver high-quality code, meet client expectations, and enjoy working on challenging projects that stretch the limits of technology. I thrive in team collaborations, bringing innovative solutions to complex problems.
+**Advanced Golang Development:** Skilled in building scalable and efficient applications, with a keen emphasis on web development, database access, and distributed systems. My experience includes transitioning applications from Java to Golang, significantly enhancing system performance, and independently conducting project analyses. Proficient in various Golang libraries and frameworks.
+
+**Cloud Solutions & Architecture:** AWS-certified developer with expertise in Kubernetes, Docker, and Terraform. Proficient in designing robust cloud architectures for high availability, disaster recovery, and cost-efficient scaling.
+
+**Innovative Problem Solving:** Dedicated to delivering high-quality code and creating innovative solutions for complex issues. Excel in collaborative environments, aiming for both team success and client satisfaction.
+
+**Project Highlights:** At SRS Consulting Inc., I played a crucial role in the serverless transformation of the EST Project, leveraging my AWS architecture knowledge. At Relanto Global Pvt Ltd, my focus was on developing and enhancing microservices for Cisco projects.
+
+I hold a Bachelor of Science in Computer Science Engineering and am fluent in Marathi, Hindi, and English. Connect with me to explore opportunities and share insights!
 
 ## Skills Matrix
 
