@@ -29,9 +29,9 @@ Showcases scalable REST API development using Go and MongoDB, focusing on effici
 
 ## Technologies Used
 
-- **Go:** [Go Documentation](https://golang.org/doc/)
-- **MongoDB:** [MongoDB Documentation](https://docs.mongodb.com/)
+- **Go:** [Go Documentation](https://golang.org/doc/){:target="_blank"}
+- **MongoDB:** [MongoDB Documentation](https://docs.mongodb.com/){:target="_blank"}
 
 ## Project Repository
 
-- [mgo-crud GitHub Repository](https://github.com/imyashkale/mgo-crud)
+- [mgo-crud GitHub Repository](https://github.com/imyashkale/mgo-crud){:target="_blank"}

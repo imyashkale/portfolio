@@ -22,5 +22,5 @@ An SDK designed in Go for seamless interactions with the Alice Blue trading API,
 
 Each project comes with a detailed explanation, insights into the development process, and the specific challenges tackled.
 
-- **[GitHub Repository](https://github.com/imyashkale)**: View my repositories for a deeper dive into my coding practices and contributions.
+- **[GitHub Repository](https://github.com/imyashkale){:target="_blank"}**: View my repositories for a deeper dive into my coding practices and contributions.
 - **[Blog](/blog/)**: Gain insights into my thoughts and experiences in the tech world.

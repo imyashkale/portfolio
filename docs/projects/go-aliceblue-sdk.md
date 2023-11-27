@@ -28,9 +28,9 @@ This SDK exemplifies the development of a specialized tool for financial trading
 
 ## Technologies Used
 
-- **Go:** A powerful programming language suitable for high-performance applications. [Go Documentation](https://golang.org/doc/)
+- **Go:** A powerful programming language suitable for high-performance applications. [Go Documentation](https://golang.org/doc/){:target="_blank"}
 - **Financial Trading APIs:** For handling financial transactions and data.
 
 ## Project Repository
 
-- [go-aliceblue-sdk GitHub Repository](https://github.com/imyashkale/go-aliceblue-sdk)
+- [go-aliceblue-sdk GitHub Repository](https://github.com/imyashkale/go-aliceblue-sdk){:target="_blank"}
