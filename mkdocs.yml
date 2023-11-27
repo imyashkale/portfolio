@@ -11,10 +11,6 @@ copyright: Copyright &copy; Yash Kale
 
 nav:
   - Home: index.md
-  - Kubernetes:
-    - Index: kubernetes/index.md
-    - CKAD Kubectl Cheat Sheet: kubernetes/ckad-cheat-sheet.md
-    - CKAD YAML Samples: kubernetes/ckad-sample-yamls.md
   - Blog:
     - Index: blog/index.md
   - Tags: tags.md

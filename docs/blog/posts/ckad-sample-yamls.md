@@ -1,12 +1,12 @@
 ---
-tags:
+title: Essential Kubernetes YAML Samples for CKAD Exam
+icon: material/newspaper-variant-outline
+date: 2023-11-18 13:34:01
+categories:
   - Kubernetes
+tags:
   - CKAD
 ---
-# Essential Kubernetes YAML Samples for CKAD Exam
-
----
-
 ## 1. Pod
 
 A basic Pod definition running an Nginx container.

@@ -1,10 +1,11 @@
 ---
-tags:
+title: CKAD kubectl Cheat Sheet
+icon: material/newspaper-variant-outline
+date: 2023-11-18 13:34:01
+categories:
   - Kubernetes
+tags:
   - CKAD
----
-# CKAD kubectl Cheat Sheet
-
 ---
 
 ## 0. Context Management
