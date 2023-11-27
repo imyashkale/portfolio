@@ -1,4 +1,4 @@
-# mgo-crud Project
+# MongoDB CRUD API
 
 ## Introduction
 

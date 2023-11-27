@@ -1,4 +1,4 @@
-# go-aliceblue-sdk Project
+# Aliceblue SDK
 
 ## Introduction
 
