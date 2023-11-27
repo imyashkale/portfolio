@@ -14,17 +14,9 @@ This SDK exemplifies the development of a specialized tool for financial trading
 
 - Secure login and access to the Alice Blue trading platform.
 
-### Real-time Data
+### Historical Data Fetch
 
-- Access to real-time trading data and market insights.
-
-### Order Management
-
-- Easy placement, modification, and cancellation of orders.
-
-### Portfolio Management
-
-- Tools for managing and overviewing financial portfolios.
+- Capability to retrieve and analyze historical trading data, providing insights into past market trends and performance.
 
 ## Technologies Used
 
