@@ -33,7 +33,7 @@ Welcome to my Website! I am Yash Kale, a passionate software developer with a st
 
 I hold a Bachelor of Science in Computer Science Engineering and am fluent in Marathi, Hindi, and English. Connect with me to explore opportunities and share insights!
 
-## Skills Matrix
+## Skills
 
 | Skill Categories          | Skills                                    |
 |---------------------------|-------------------------------------------|
