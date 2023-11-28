@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.1.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -127,6 +127,9 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 - Successfully migrated the EST Project from a Java-based application with Liferay to a serverless architecture, addressing performance and security concerns.
 - Architected a serverless solution, leveraging API Gateway and Lambda with Golang for efficient operations.
 - Directly integrated API Gateway with DynamoDB, optimizing resource utilization and reducing costs significantly.
+- Implemented AWS CloudFront to speed up content delivery, enhancing user experience.
+- Adopted AWS S3 for reliable and scalable static content storage, improving performance and data handling.
+- Implemented signed cookies with CloudFront for secure, authenticated access to content, adding an extra security layer and personalized content delivery.
 
 **Data Migration and Security:**
 
