@@ -202,7 +202,7 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 :material-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/imyashkale/)  
 :material-github:{ .github } [GitHub](https://github.com/imyashkale)  
-:material-certificate:{ .credly } [Credly - Certifications](https://www.credly.com/badges/9eb5642b-17d6-4463-9578-50eb57e425c6)  
+:material-certificate:{ .credly } [Credly - Certifications](https://www.credly.com/users/imyashkale/badges)  
 :fontawesome-solid-code:{ .leetcode } [Leetcode](https://leetcode.com/imyashkale/)  
 :material-docker:{ .docker } [Docker](https://hub.docker.com/u/imyashkale)  
 :fontawesome-solid-earth-asia:{ .website } [Personal Website](https://imyashkale.com)
