@@ -192,6 +192,13 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 **Bachelor of Science: Computer Science Engineering** - August 2022
 Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
+## Conferences Attended
+
+**[DevOpsDays Bengaluru 2023](https://devopsdays.org/events/2023-bengaluru/welcome/){:target="_blank"} (October 20-21, 2023)**
+
+- Participated in the esteemed DevOpsDays conference in Bengaluru. This event offered a unique opportunity for learning, sharing, and networking within the DevOps community.
+- For more insights into my experience at the event, check out my [LinkedIn post](https://www.linkedin.com/posts/imyashkale_devopsdays-networking-activity-7121517709237891074-3L2t/){:target="_blank"}.
+
 ## Languages
 
 :material-book-open-page-variant:{ .language } **Marathi:** First Language  
