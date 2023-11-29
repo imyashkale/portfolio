@@ -16,9 +16,11 @@ nav:
     - Field Validator: projects/field-validator.md
     - Mongo GO API: projects/mgo-crud.md
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
-
   - Blog:
     - Index: blog/index.md
+  - Notes:
+    - Index: notes/index.md
+    - Operating System: notes/os.md
   - Tags: tags.md
 
 ############################################## THEME ############################################
