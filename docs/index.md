@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.2.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.3.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -149,6 +149,8 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 ### Full Stack Software Engineer
 
 **<a href="https://www.simsol.in" target="_blank">SimSol Technologies And Services Private Limited</a>** - Mumbai, India (August 2019 to September 2022)
+
+At SimSol Technologies, focused on advancing Indian banking through technology, I specialized in developing sophisticated web applications using Golang and VueJS. My work, notably in improving processing efficiency and developing key microservices, aligned with the company's mission for robust, scalable banking solutions.
 
 **Web Application Development:**
 
