@@ -18,9 +18,15 @@ nav:
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
   - Blog:
     - Index: blog/index.md
-  - Notes:
-    - Index: notes/index.md
-    - Operating System: notes/os.md
+  # - Cloud:
+  #   - Index: cloud/index.md
+  # - Code:
+  #   - Index: code/index.md
+  # - System Design:
+  #   - Index: system-design/index.md
+  - Fundamentals: 
+    - Index: fundamentals/index.md
+    - OS: fundamentals/os.md
   - Tags: tags.md
 
 ############################################## THEME ############################################
