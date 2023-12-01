@@ -101,12 +101,6 @@ At Relanto, a service-based company, I am deployed as a client-facing developer 
 
 At SRS Consulting Inc., I work on three main projects with Cisco: [Cisco LearningSpace](https://learningspace.cisco.com){:target="_blank"}, [Cisco E Service Training](https://est.cisco.com){:target="_blank"}, and [Cisco U](https://u.cisco.com){:target="_blank"}. My role focuses on using Golang and AWS to create advanced software, helping to improve each project with new and effective technology.
 
-{==
-
-Cisco E Services Training is exclusively accessible to Cisco employees and partners, and is not available for general public use.
-
-==}
-
 **1. Migrated Learningspace Application: [Cisco LearningSpace](https://learningspace.cisco.com){:target="_blank"}**
 
 - Solely responsible for transitioning the Learningspace application from Java to Golang.
@@ -121,6 +115,12 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 - Focused on creating efficient testing frameworks to validate API functionality, contributing to the overall quality of the Cisco U services.
 
 **3. [Cisco E Service Training](https://est.cisco.com){:target="_blank"}**
+
+{==
+
+Cisco E Services Training is exclusively accessible to Cisco employees and partners, and is not available for general public use.
+
+==}
 
 **Architected Serverless Transformation of EST Project:**
 
@@ -209,9 +209,9 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 ## Connect With Me
 
-:material-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/imyashkale/)  
-:material-github:{ .github } [GitHub](https://github.com/imyashkale)  
-:material-certificate:{ .credly } [Credly - Certifications](https://www.credly.com/users/imyashkale/badges)  
-:fontawesome-solid-code:{ .leetcode } [Leetcode](https://leetcode.com/imyashkale/)  
-:material-docker:{ .docker } [Docker](https://hub.docker.com/u/imyashkale)  
-:fontawesome-solid-earth-asia:{ .website } [Personal Website](https://imyashkale.com)
+:material-linkedin:{ .linkedin } [LinkedIn](https://www.linkedin.com/in/imyashkale/){:target="_blank"}  
+:material-github:{ .github } [GitHub](https://github.com/imyashkale){:target="_blank"}  
+:material-certificate:{ .credly } [Credly - Certifications](https://www.credly.com/users/imyashkale/badges){:target="_blank"}.  
+:fontawesome-solid-code:{ .leetcode } [Leetcode](https://leetcode.com/imyashkale/){:target="_blank"}.  
+:material-docker:{ .docker } [Docker](https://hub.docker.com/u/imyashkale){:target="_blank"}.  
+:fontawesome-solid-earth-asia:{ .website } [Personal Website](https://imyashkale.com){:target="_blank"}.
