@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.3.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.4.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -93,6 +93,7 @@ At Relanto, a service-based company, I am deployed as a client-facing developer 
 - Responsible for the complete architecture and design of the service, ensuring smooth integration and communication with other microservices within the Kubernetes cluster.
 - Focused on efficient service deployment and operation, with an emphasis on interaction with microservices.
 - Migrated parts of the service that were initially written in C# to Golang, involving a comprehensive understanding of the existing codebase and requirements to ensure seamless functionality and integration.
+- Implemented a custom REST API client to interact with Credly APIs, handling badge issuance processes. This involved crafting requests and managing responses to ensure accurate badge allocation to users, seamlessly integrating with the existing service architecture.
 
 <!-- markdownlint-disable MD024 -->
 ### Software Engineer  
@@ -106,6 +107,7 @@ At SRS Consulting Inc., I work on three main projects with Cisco: [Cisco Learnin
 - Solely responsible for transitioning the Learningspace application from Java to Golang.
 - Achieved a significant boost in system performance and efficiency through the migration.
 - Independently conducted a thorough analysis of project requirements.
+- Implemented an AWS Lambda function to automatically process EPUB files uploaded to S3, triggering real-time point generation. This enhancement streamlined file handling and improved application responsiveness.
 
 **2. REST API Development for Cisco U Platform: [Cisco U](https://u.cisco.com){:target="_blank"}**
 
@@ -126,10 +128,22 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 
 - Successfully migrated the EST Project from a Java-based application with Liferay to a serverless architecture, addressing performance and security concerns.
 - Architected a serverless solution, leveraging API Gateway and Lambda with Golang for efficient operations.
+- Implemented AWS Cognito for robust user authentication, integrating OKTA with the identity pool to enhance security and user management. Utilized Cognito for granting access to API Gateway.
 - Directly integrated API Gateway with DynamoDB, optimizing resource utilization and reducing costs significantly.
 - Implemented AWS CloudFront to speed up content delivery, enhancing user experience.
 - Adopted AWS S3 for reliable and scalable static content storage, improving performance and data handling.
 - Implemented signed cookies with CloudFront for secure, authenticated access to content, adding an extra security layer and personalized content delivery.
+
+**Custom Authorizer - API Gateway:**
+
+- Developed a custom AWS Lambda authorizer in Golang, ensuring efficient and scalable authorization management.
+- This Lambda function integrates with AWS Cognito, determining API access permissions based on user group membership within Cognito.
+
+**Pre Authentication Trigger Lambda - Cognito:**
+
+- Wrote a pre-authentication Lambda function in Golang, designed to check if the user's email domain is listed in DynamoDB, thereby controlling access.
+- This function fetches records from DynamoDB to determine if a user is permitted, effectively restricting login to specific vendors.
+- Optimized for performance, this Lambda function processes requests in just 2 milliseconds.
 
 **Data Migration and Security:**
 
