@@ -4,8 +4,10 @@ icon: material/newspaper-variant-outline
 date: 2023-11-18 13:34:01
 categories:
   - Kubernetes
+  - CKAD
 tags:
   - CKAD
+  - Kubernetes
 ---
 
 ## 0. Context Management
