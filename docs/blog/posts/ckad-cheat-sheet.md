@@ -367,3 +367,62 @@ kubectl cp /path/on/local/file.txt my-pod:/path/in/container/file.txt
 ```
 
 **Declarative**: Not applicable for cp command.
+
+## 11. Labels and Selectors
+
+### 11.1 Managing Labels
+
+#### Adding Labels to a Pod
+
+```bash
+kubectl label pods my-pod key1=value1 key2=value2
+```
+
+- Adds labels `key1=value1` and `key2=value2` to `my-pod`.
+
+#### Updating Labels of a Pod
+
+```bash
+kubectl label pods my-pod key1=value1 --overwrite
+```
+
+- Updates the value of `key1` to `value1` on `my-pod`, overwriting if it exists.
+
+#### Removing Labels from a Pod
+
+```bash
+kubectl label pods my-pod key1-
+```
+
+- Removes the label `key1` from `my-pod`.
+
+#### Filtering Resources by Labels
+
+```bash
+kubectl get pods -l key1=value1,key2=value2
+```
+
+- Lists all pods with labels `key1=value1` and `key2=value2`.
+
+#### Using Labels for Resource Management
+
+- **Imperative**:
+  - Assigning a label:
+
+  ```bash
+  kubectl label pods my-pod env=dev
+  ```
+
+  - Selecting resources:
+
+  ```bash
+  kubectl get pods -l env=dev
+  ```
+
+- **Declarative**:
+  - Update YAML: Add labels under `metadata.labels` in resource definition files.
+  - Apply YAML:
+
+  ```bash
+  kubectl apply -f <resource-definition-file>.yaml
+  ```
