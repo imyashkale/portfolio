@@ -205,14 +205,6 @@ kubectl exec -it my-pod -- /bin/bash
 
 Opens a shell inside the container.
 
-### 10.2 Attach to a Running Container
-
-```bash
-kubectl attach my-pod -i
-```
-
-- `-i`: Interactive mode, attaches stdin of the pod.
-
 ### 10.3 Port Forwarding
 
 ```bash
