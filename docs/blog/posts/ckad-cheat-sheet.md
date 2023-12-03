@@ -357,6 +357,7 @@ kubectl port-forward my-pod 8080:80
 ```
 
 - `8080:80`: Forwards local port 8080 to the Pod's port 80.
+
 **Declarative**: Not applicable for port-forward command.
 
 #### Copying Files to/from a Container
