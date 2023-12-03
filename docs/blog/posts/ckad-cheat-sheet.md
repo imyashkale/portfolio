@@ -12,8 +12,6 @@ tags:
 
 ## 0. Context Management
 
-Switching and Managing Kubernetes Contexts
-
 ### 0.1 View Current Context
 
 ```bash
@@ -36,19 +34,33 @@ kubectl config use-context my-context
 
 ## 1. Pods
 
-Creating and Managing Pods
+### 1.1 Managing a Pod
 
-### 1.1 Create a Pod
+#### Creating a Pod
 
 ```bash
 kubectl run my-pod --image=nginx:latest --restart=Never --env=VAR1=value1
 ```
 
 - `--image nginx:latest`: Specifies the container image.
-- `--restart Never`: Controls the restart policy, `Never` for a Pod.
+- `--restart Never`: Controls the restart policy.
 - `--env VAR1=value1`: Sets environment variables.
 
-### 1.2 Get Pods
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl run my-pod --image=nginx:latest --restart=Never --env=VAR1=value1 --dry-run=client -o yaml > my-pod.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-pod.yaml
+```
+
+#### Getting Pods
 
 ```bash
 kubectl get pods -o wide --watch
@@ -57,19 +69,17 @@ kubectl get pods -o wide --watch
 - `-o wide`: Provides more detailed output.
 - `--watch`: Watches for changes in real-time.
 
-### 1.3 Describe a Pod
+#### Describing a Pod
 
 ```bash
 kubectl describe pod my-pod
 ```
 
-Provides detailed information about the Pod.
-
 ## 2. Deployments
 
-Deploying and Updating Applications
+### 2.1 Managing Deployments
 
-### 2.1 Create a Deployment
+#### Creating a Deployment
 
 ```bash
 kubectl create deployment my-deployment --image=nginx:latest --replicas=2
@@ -78,7 +88,21 @@ kubectl create deployment my-deployment --image=nginx:latest --replicas=2
 - `--image nginx:latest`: Specifies the container image.
 - `--replicas 2`: Number of desired replicas.
 
-### 2.2 Scale a Deployment
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create deployment my-deployment --image=nginx:latest --replicas=2 --dry-run=client -o yaml > my-deployment.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-deployment.yaml
+```
+
+#### Scaling a Deployment
 
 ```bash
 kubectl scale deployment my-deployment --replicas=5
@@ -86,11 +110,18 @@ kubectl scale deployment my-deployment --replicas=5
 
 - `--replicas 5`: Sets the number of desired replicas.
 
+**Declarative**:
+
+- Update YAML: Adjust `replicas` in `my-deployment.yaml` file.
+- Apply YAML:
+
+```bash
+kubectl apply -f my-deployment.yaml
+```
+
 ## 3. Services
 
-Exposing Applications
-
-### 3.1 Create a ClusterIP Service
+### 3.1 Creating a Service
 
 ```bash
 kubectl expose deployment my-deployment --port=80 --type=ClusterIP
@@ -99,17 +130,45 @@ kubectl expose deployment my-deployment --port=80 --type=ClusterIP
 - `--port 80`: Specifies the port number.
 - `--type ClusterIP`: Defines the type of service.
 
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl expose deployment my-deployment --port=80 --type=ClusterIP --dry-run=client -o yaml > my-service.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-service.yaml
+```
+
 ## 4. Namespaces
 
-Namespace Management
+### 4.1 Managing Namespaces
 
-### 4.1 Create a Namespace
+#### Creating a Namespace
 
 ```bash
 kubectl create namespace my-namespace
 ```
 
-### 4.2 List Namespaces
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create namespace my-namespace --dry-run=client -o yaml > my-namespace.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-namespace.yaml
+```
+
+#### Listing Namespaces
 
 ```bash
 kubectl get namespaces
@@ -117,9 +176,9 @@ kubectl get namespaces
 
 ## 5. Configuration
 
-ConfigMaps and Secrets
+### 5.1 Managing ConfigMaps and Secrets
 
-### 5.1 Create a ConfigMap
+#### Creating a ConfigMap
 
 ```bash
 kubectl create configmap my-configmap --from-literal=key1=value1 --from-file=./config-file.txt
@@ -128,11 +187,48 @@ kubectl create configmap my-configmap --from-literal=key1=value1 --from-file=./c
 - `--from-literal key1=value1`: Sets a key-value pair directly.
 - `--from-file ./config-file.txt`: Creates a ConfigMap from a file.
 
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create configmap my-configmap --from-literal=key1=value1 --from-file=./config-file.txt --dry-run=client -o yaml > my-configmap.yaml
+```
+
+-
+
+ Apply YAML:
+
+```bash
+kubectl apply -f my-configmap.yaml
+```
+
+#### Creating a Secret
+
+```bash
+kubectl create secret generic my-secret --from-literal=key1=value1 --from-file=./secret-file.txt
+```
+
+- `--from-literal key1=value1`: Sets a key-value pair for the secret.
+- `--from-file ./secret-file.txt`: Creates a Secret from a file.
+
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create secret generic my-secret --from-literal=key1=value1 --from-file=./secret-file.txt --dry-run=client -o yaml > my-secret.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-secret.yaml
+```
+
 ## 6. Monitoring and Logging
 
-Observing Pod and Node Behavior
-
-### 6.1 Get Logs
+### 6.1 Getting Logs
 
 ```bash
 kubectl logs my-pod -f --since=1h
@@ -143,9 +239,9 @@ kubectl logs my-pod -f --since=1h
 
 ## 7. Jobs and CronJobs
 
-Running Tasks
+### 7.1 Managing Jobs and CronJobs
 
-### 7.1 Create a Job
+#### Creating a Job
 
 ```bash
 kubectl create job my-job --image=busybox
@@ -153,7 +249,21 @@ kubectl create job my-job --image=busybox
 
 - `--image busybox`: Specifies the container image.
 
-### 7.2 Create a CronJob
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create job my-job --image=busybox --dry-run=client -o yaml > my-job.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-job.yaml
+```
+
+#### Creating a CronJob
 
 ```bash
 kubectl create cronjob my-cronjob --schedule="*/5 * * * *" --image=busybox
@@ -161,31 +271,57 @@ kubectl create cronjob my-cronjob --schedule="*/5 * * * *" --image=busybox
 
 - `--schedule "*/5 * * * *"`: Sets the cron schedule in cron format.
 
+**Declarative**:
+
+- Generate YAML:
+
+```bash
+kubectl create cronjob my-cronjob --schedule="*/5 * * * *" --image=busybox --dry-run=client -o yaml > my-cronjob.yaml
+```
+
+- Apply YAML:
+
+```bash
+kubectl apply -f my-cronjob.yaml
+```
+
 ## 8. Rolling Updates and Rollbacks
 
-Managing Application Updates
+### 8.1 Managing Updates and Rollbacks
 
-### 8.1 Update a Deployment
+#### Updating a Deployment
 
 ```bash
 kubectl set image deployment/my-deployment nginx=nginx:1.9.1
 ```
 
-Updates the image of the deployment.
+**Declarative**:
 
-### 8.2 Rollback a Deployment
+- Update YAML: Adjust `image` in `my-deployment.yaml`.
+- Apply YAML:
+
+```bash
+kubectl apply -f my-deployment.yaml
+```
+
+#### Rolling Back a Deployment
 
 ```bash
 kubectl rollout undo deployment/my-deployment
 ```
 
-Undoes the most recent rollout.
+**Declarative**:
+
+- Use previous version of `my-deployment.yaml`.
+- Apply YAML:
+
+```bash
+kubectl apply -f my-deployment.yaml
+```
 
 ## 9. Resource Management
 
-Configuring Compute Resources
-
-### 9.1 Set Resource Requests and Limits
+### 9.1 Setting Resource Requests and Limits
 
 ```bash
 kubectl set resources deployment/my-deployment --limits=cpu=200m,memory=512Mi --requests=cpu=100m,memory=256Mi
@@ -193,30 +329,40 @@ kubectl set resources deployment/my-deployment --limits=cpu=200m,memory=512Mi --
 
 - `--limits cpu=200m,memory=512Mi` and `--requests cpu=100m,memory=256Mi`: Set resource constraints.
 
+**Declarative**:
+
+- Update YAML: Adjust `resources` in `my-deployment.yaml`.
+- Apply YAML:
+
+```bash
+kubectl apply -f my-deployment.yaml
+```
+
 ## 10. Debugging
 
-Diagnosing and Fixing Issues
+### 10.1 Diagnosing and Fixing Issues
 
-### 10.1 Exec into a Container
+#### Executing into a Container
 
 ```bash
 kubectl exec -it my-pod -- /bin/bash
 ```
 
-Opens a shell inside the container.
+**Declarative**: Not applicable for exec command.
 
-### 10.3 Port Forwarding
+#### Port Forwarding
 
 ```bash
 kubectl port-forward my-pod 8080:80
 ```
 
 - `8080:80`: Forwards local port 8080 to the Pod's port 80.
+**Declarative**: Not applicable for port-forward command.
 
-### 10.4 Copy Files to/from a Container
+#### Copying Files to/from a Container
 
 ```bash
 kubectl cp /path/on/local/file.txt my-pod:/path/in/container/file.txt
 ```
 
-Copies a file from the local filesystem to a container.
+**Declarative**: Not applicable for cp command.
