@@ -18,7 +18,7 @@ nav:
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
   - Blog:
     - Index: blog/index.md
-  - Fundamentals: 
+  - Notes: 
     - Index: fundamentals/index.md
     - OS: fundamentals/os.md
   - Tags: tags.md

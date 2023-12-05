@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.4.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.5.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -134,16 +134,20 @@ Cisco E Services Training is exclusively accessible to Cisco employees and partn
 - Adopted AWS S3 for reliable and scalable static content storage, improving performance and data handling.
 - Implemented signed cookies with CloudFront for secure, authenticated access to content, adding an extra security layer and personalized content delivery.
 
-**Custom Authorizer - API Gateway:**
+**Custom Authorizer - AWS API Gateway:**
 
 - Developed a custom AWS Lambda authorizer in Golang, ensuring efficient and scalable authorization management.
 - This Lambda function integrates with AWS Cognito, determining API access permissions based on user group membership within Cognito.
 
-**Pre Authentication Trigger Lambda - Cognito:**
+**Pre Authentication Trigger Lambda - AWS Cognito:**
 
 - Wrote a pre-authentication Lambda function in Golang, designed to check if the user's email domain is listed in DynamoDB, thereby controlling access.
 - This function fetches records from DynamoDB to determine if a user is permitted, effectively restricting login to specific vendors.
 - Optimized for performance, this Lambda function processes requests in just 2 milliseconds.
+
+**Signed Cookie Generator - AWS API Gateway:**
+
+- Developed in Golang for AWS API Gateway integration, this Lambda function efficiently generates secure, signed cookies upon API requests, facilitating controlled access to content via CloudFront.
 
 **Data Migration and Security:**
 
