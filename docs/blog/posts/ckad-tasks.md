@@ -1,7 +1,7 @@
 ---
 title: Certified Kubernetes Application Developer (CKAD) Exam Tasks
 icon: material/newspaper-variant-outline
-date: 2023-11-18 13:34:01
+date: 2023-12-06 10:00:01
 categories:
 - Kubernetes
 - CKAD
@@ -54,6 +54,6 @@ tags:
 
 ### Tasks
 
-- Implement NetworkPolicies for fine-grained network control.
-- Configure and troubleshoot access to applications through Services.
-- Set up Ingress rules to expose applications to external traffic.
+- [Implement NetworkPolicies for fine-grained network control.](ckad-network-policy.md)  
+- [Configure and troubleshoot access to applications through Services.](ckad-services.md)  
+- [Set up Ingress rules to expose applications to external traffic.](ckad-ingress.md)  
