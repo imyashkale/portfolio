@@ -70,4 +70,4 @@ With Kustomize, you can create an overlay that changes the values in the ConfigM
 
 ## Conclusion
 
-Kustomize offers a flexible way to manage Kubernetes applications' configurations. By using Kustomize, you can easily modify deployments, keeping your configurations consistent and manageable【68†source】.
+Kustomize offers a flexible way to manage Kubernetes applications' configurations. By using Kustomize, you can easily modify deployments, keeping your configurations consistent and manageable.
