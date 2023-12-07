@@ -24,10 +24,10 @@ tags:
 
 ### Tasks
 
-- Implement a blue/green or canary deployment strategy.
-- Perform rolling updates on a Deployment.
-- Deploy an application using a Helm chart.
-- Modify an application deployment using Kustomize.
+- [Implement a blue/green or canary deployment strategy.](blue-green-canary-deployment.md)
+- [Perform rolling updates on a Deployment.](rolling-updates.md)
+- [Deploy an application using a Helm chart.](helm-charts.md)
+- [Modify an application deployment using Kustomize.](kustomize.md)
 
 ## Application Observability and Maintenance (15%)
 
