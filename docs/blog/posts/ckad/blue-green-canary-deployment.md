@@ -175,8 +175,4 @@ spec:
 
 Blue/Green and Canary deployment strategies in Kubernetes offer a methodical approach to manage application updates, reducing risks and ensuring a smoother rollout process.
 
-```
-
 ---
-
-This markdown content is designed for the MkDocs Material theme and provides a structured guide with sample values for setting up blue/green and canary deployments in Kubernetes.
