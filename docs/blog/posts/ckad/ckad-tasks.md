@@ -43,18 +43,18 @@ tags:
 
 ### Tasks
 
-- [Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.](ckad-crds.md)
-- [Manage Kubernetes authentication, authorization](ckad-kubernetes-auth.md)
-- [Admission control processes.](ckad-admission-control.md)
-- [Set up resource requests, limits, and quotas in Pod definitions.](ckad-compute-resource-usage.md)
-- [Create and manage ConfigMaps and Secrets.](ckad-configmaps-secrets.md)
-- [Configure ServiceAccounts for application Pods.](ckad-service-accounts.md)
+- [Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.](crds.md)
+- [Configure ServiceAccounts for application Pods.](service-accounts.md)
+- [Manage Kubernetes authentication, authorization](kubernetes-auth.md)
+- [Admission control processes.](admission-control.md)
+- [Set up resource requests, limits, and quotas in Pod definitions.](compute-resource-usage.md)
+- [Create and manage ConfigMaps and Secrets.](configmaps-secrets.md)
 - Apply SecurityContexts to enforce security policies in Pods.
 
 ## Services and Networking (20%)
 
 ### Tasks
 
-- [Implement NetworkPolicies for fine-grained network control.](ckad-network-policy.md)  
-- [Configure and troubleshoot access to applications through Services.](ckad-services.md)  
-- [Set up Ingress rules to expose applications to external traffic.](ckad-ingress.md)  
+- [Implement NetworkPolicies for fine-grained network control.](network-policy.md)  
+- [Configure and troubleshoot access to applications through Services.](services.md)  
+- [Set up Ingress rules to expose applications to external traffic.](ingress.md)  
