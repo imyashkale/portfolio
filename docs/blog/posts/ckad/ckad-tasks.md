@@ -49,7 +49,7 @@ tags:
 - [Admission control processes.](admission-control.md)
 - [Set up resource requests, limits, and quotas in Pod definitions.](compute-resource-usage.md)
 - [Create and manage ConfigMaps and Secrets.](configmaps-secrets.md)
-- Apply SecurityContexts to enforce security policies in Pods.
+- [Apply SecurityContexts to enforce security policies in Pods.](security-context.md)
 
 ## Services and Networking (20%)
 
