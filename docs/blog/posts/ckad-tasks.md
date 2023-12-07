@@ -1,7 +1,7 @@
 ---
 title: Certified Kubernetes Application Developer (CKAD) Exam Tasks
 icon: material/newspaper-variant-outline
-date: 2023-12-06 10:00:01
+date: 2023-12-07 10:00:01
 categories:
 - Kubernetes
 - CKAD
@@ -43,11 +43,12 @@ tags:
 
 ### Tasks
 
-- Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.
-- Manage Kubernetes authentication, authorization, and admission control processes.
-- Set up resource requests, limits, and quotas in Pod definitions.
-- Create and manage ConfigMaps and Secrets.
-- Configure ServiceAccounts for application Pods.
+- [Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.](ckad-crds.md)
+- [Manage Kubernetes authentication, authorization](ckad-kubernetes-auth.md)
+- [Admission control processes.](ckad-admission-control.md)
+- [Set up resource requests, limits, and quotas in Pod definitions.](ckad-compute-resource-usage.md)
+- [Create and manage ConfigMaps and Secrets.](ckad-configmaps-secrets.md)
+- [Configure ServiceAccounts for application Pods.](ckad-service-accounts.md)
 - Apply SecurityContexts to enforce security policies in Pods.
 
 ## Services and Networking (20%)
