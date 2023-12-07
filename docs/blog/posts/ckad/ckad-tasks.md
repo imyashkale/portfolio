@@ -35,9 +35,9 @@ tags:
 
 - [Address API deprecations in application code or configurations.](api-deprecations.md)
 - [Implement and configure liveness and readiness probes.](liveness-readiness.md)
-- Monitor applications using Kubernetes CLI tools like `kubectl top`.
+- [Monitor applications using Kubernetes CLI tools like `kubectl top`.](monitoring-applications.md)
 - [Access and analyze container logs.](container-logs.md)
-- Debug common issues in a Kubernetes application.]
+- [Debug common issues in a Kubernetes application.](debug-common-issues.md)
 
 ## Application Environment, Configuration, and Security (25%)
 
