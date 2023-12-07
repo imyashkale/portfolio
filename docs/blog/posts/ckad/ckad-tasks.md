@@ -33,11 +33,11 @@ tags:
 
 ### Tasks
 
-- Address API deprecations in application code or configurations.
-- Implement and configure liveness and readiness probes.
+- [Address API deprecations in application code or configurations.](api-deprecations.md)
+- [Implement and configure liveness and readiness probes.](liveness-readiness.md)
 - Monitor applications using Kubernetes CLI tools like `kubectl top`.
-- Access and analyze container logs.
-- Debug common issues in a Kubernetes application.
+- [Access and analyze container logs.](container-logs.md)
+- Debug common issues in a Kubernetes application.]
 
 ## Application Environment, Configuration, and Security (25%)
 
