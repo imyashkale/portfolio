@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.5.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.6.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -218,6 +218,10 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 - Participated in the esteemed DevOpsDays conference in Bengaluru. This event offered a unique opportunity for learning, sharing, and networking within the DevOps community.
 - For more insights into my experience at the event, check out my [LinkedIn post](https://www.linkedin.com/posts/imyashkale_devopsdays-networking-activity-7121517709237891074-3L2t/){:target="_blank"}.
+
+**[KubeDay India 2023](https://kubedayindia2023.sched.com){:target="_blank"} (December 8, 2023)**  
+
+- Participated in the dynamic KubeDay conference in Bengaluru. This event, organized by the Cloud Native Computing Foundation, was a prime occasion for engaging with the vibrant Kubernetes and cloud-native community.  
 
 ## Languages
 
