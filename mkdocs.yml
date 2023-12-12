@@ -18,6 +18,7 @@ nav:
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
   - Blog:
     - Index: blog/index.md
+    - Pinned Post: blog/pinned.md
   - Notes: 
     - Index: fundamentals/index.md
     - OS: fundamentals/os.md
