@@ -15,10 +15,10 @@ tags:
 
 ### Tasks
 
-- Create a Dockerfile for a new application.
-- Build and modify container images using Docker commands.
-- Deploy a multi-container Pod using sidecar or init container patterns.
-- Work with persistent and ephemeral volumes in Pods.
+- [Create a Dockerfile for a new application.](dockerize-app.md)
+- [Build and modify container images using Docker commands.](build-container.md)
+- [Deploy a multi-container Pod using sidecar or init container patterns.](multi-container.md)
+- [Work with persistent and ephemeral volumes in Pods.](volumes.md)
 
 ## Application Deployment (20%)
 
