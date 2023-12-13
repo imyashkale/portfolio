@@ -16,7 +16,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="../static/resume/Yash_Kale_Resume_v1.6.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="../static/resume/Yash_Kale_Resume_v1.7.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
 </div>
 
 ## Summary
@@ -94,6 +94,7 @@ At Relanto, a service-based company, I am deployed as a client-facing developer 
 - Focused on efficient service deployment and operation, with an emphasis on interaction with microservices.
 - Migrated parts of the service that were initially written in C# to Golang, involving a comprehensive understanding of the existing codebase and requirements to ensure seamless functionality and integration.
 - Implemented a custom REST API client to interact with Credly APIs, handling badge issuance processes. This involved crafting requests and managing responses to ensure accurate badge allocation to users, seamlessly integrating with the existing service architecture.
+- Developed detailed unit tests in Golang for the Badging-Service, ensuring code reliability and functionality within the service architecture.
 
 <!-- markdownlint-disable MD024 -->
 ### Software Engineer  
