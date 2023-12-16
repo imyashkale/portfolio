@@ -1,6 +1,6 @@
 ---
 title: Deploying and Managing MySQL with Helm in Kubernetes
-date: 2023-11-16 20:34:01
+date: 2023-11-16 13:34:01
 categories: 
   - Kubernetes
   - CKAD
@@ -40,15 +40,17 @@ helm repo update
 
 Replace `$MYSQL_ROOT_PASSWORD` with your desired root password.
 
-```bash title="For Example"
-export MYSQL_ROOT_PASSWORD=strongpassword
+```bash title="Example"
+export MYSQL_ROOT_PASSWORD=strong-password
 ```
 
 To install the MySQL chart with a custom password:
 
 ```bash
-helm install --set mysqlRootPassword=$MYSQL_ROOT_PASSWORD -n my-database my-mysql bitnami/mysql
+helm install --set mysqlRootPassword=$MYSQL_ROOT_PASSWORD --set volumePermissions.enabled=true -n my-database my-mysql bitnami/mysql
 ```
+
+The `volumePermissions.enabled=true` setting helps avoid potential permission issues with persistent volumes.
 
 !!! tip
     Use `helm search repo [repository-name]` to find available charts in a repository.
@@ -90,7 +92,7 @@ To rollback to the first version of the MySQL release:
 helm rollback my-mysql 1 -n my-database
 ```
 
-!!! danger "caution"
+!!! caution
     Rollbacks cannot be undone. Be sure of the revision number.
 
 ### 8. Uninstalling the MySQL Release
@@ -103,6 +105,6 @@ helm uninstall my-mysql -n my-database
 
 ## Conclusion
 
-Using Helm to deploy and manage applications like MySQL in Kubernetes simplifies the process considerably. Following these steps, including simulating and resolving deployment issues, will allow you to effectively manage MySQL in your Kubernetes clusters.
+Using Helm to deploy and manage applications like MySQL in Kubernetes simplifies the process considerably. Following these steps, including addressing common deployment challenges like permission issues, will allow you to effectively manage MySQL in your Kubernetes clusters.
 
 ---
