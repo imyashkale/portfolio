@@ -1,6 +1,6 @@
 ---
-title: Deploying Applications with Helm Charts in Kubernetes
-date: 2023-11-18 13:34:01
+title: Deploying and Managing MySQL with Helm in Kubernetes
+date: 2023-11-16 20:34:01
 categories: 
   - Kubernetes
   - CKAD
@@ -11,18 +11,18 @@ tags:
 
 ## Overview
 
-Deploying applications in Kubernetes can be simplified using Helm, a package manager for Kubernetes. This post guides you through deploying an application using a Helm chart.
+This guide explains how to deploy and manage the MySQL database using Helm in a Kubernetes environment. Helm, a package manager for Kubernetes, simplifies the process of managing Kubernetes applications.
 
 !!! note
-    For detailed Helm installation instructions, refer to [Installing Helm](https://helm.sh/docs/intro/install/). Helm Charts package all the resource definitions needed to deploy an application in Kubernetes.
+    For detailed Helm installation instructions, refer to [Installing Helm](https://helm.sh/docs/intro/install/). Helm Charts package all the resource definitions necessary to deploy an application in Kubernetes.
 
-## Deploying an Application with Helm
+## Deploying MySQL with Helm
 
-Helm simplifies Kubernetes application deployment by packaging all necessary resources in a chart. Here’s how to deploy an application using Helm:
+Helm streamlines the deployment of applications in Kubernetes, and here’s how you can use it to deploy MySQL:
 
 ### 1. Add a Helm Repository
 
-First, add a Helm repository. Repositories contain collections of charts.
+First, add the Bitnami Helm repository which contains the MySQL chart:
 
 ```bash
 helm repo add bitnami https://charts.bitnami.com/bitnami
@@ -30,25 +30,79 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 
 ### 2. Update the Repository
 
-Update the repository to ensure you have the latest charts.
+Ensure you have the latest charts by updating the repository:
 
 ```bash
 helm repo update
 ```
 
-### 3. Install a Chart
+### 3. Install MySQL Chart
 
-Choose and install a chart from the repository. For example, to install a DokuWiki chart from the Bitnami repository:
+Replace `$MYSQL_ROOT_PASSWORD` with your desired root password.
 
-```bash
-helm install --set persistence.enabled=false -n dokuwiki dokuwiki bitnami/dokuwiki
+```bash title="For Example"
+export MYSQL_ROOT_PASSWORD=strongpassword
 ```
 
-This command installs DokuWiki, a wiki software, with disabled persistence and in the namespace `dokuwiki`.
+To install the MySQL chart with a custom password:
+
+```bash
+helm install --set mysqlRootPassword=$MYSQL_ROOT_PASSWORD -n my-database my-mysql bitnami/mysql
+```
 
 !!! tip
-    Use `helm search repo [repository-name]` to find available charts in a repository. Customize the installation with `--set` to alter chart configurations.
+    Use `helm search repo [repository-name]` to find available charts in a repository.
+
+### 4. Intentionally Update to an Incompatible MySQL Image Tag
+
+To simulate a real-world problem where an update might cause issues, let's intentionally update to an incompatible MySQL image tag:
+
+```bash
+helm upgrade my-mysql bitnami/mysql -n my-database --set image.tag=nonexistent
+```
+
+!!! info
+    The purpose of this command is to simulate a problematic update, allowing us to demonstrate the rollback process. This update intentionally uses a non-existent tag, which will cause the update to fail, resembling a common real-world issue.
+
+## Managing MySQL with Helm
+
+### 5. Viewing Helm Release History
+
+To view the history of the MySQL release:
+
+```bash
+helm history my-mysql -n my-database
+```
+
+### 6. Listing Installed Helm Charts
+
+List all installed Helm charts in a specific namespace:
+
+```bash
+helm list -n my-database
+```
+
+### 7. Rolling Back a Helm Release
+
+To rollback to the first version of the MySQL release:
+
+```bash
+helm rollback my-mysql 1 -n my-database
+```
+
+!!! danger "caution"
+    Rollbacks cannot be undone. Be sure of the revision number.
+
+### 8. Uninstalling the MySQL Release
+
+To remove the MySQL release:
+
+```bash
+helm uninstall my-mysql -n my-database
+```
 
 ## Conclusion
 
-Helm charts streamline the deployment of applications in Kubernetes, bundling all the necessary Kubernetes resources. By following these steps, you can efficiently deploy and manage applications across your Kubernetes clusters.
+Using Helm to deploy and manage applications like MySQL in Kubernetes simplifies the process considerably. Following these steps, including simulating and resolving deployment issues, will allow you to effectively manage MySQL in your Kubernetes clusters.
+
+---
