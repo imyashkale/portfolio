@@ -4,11 +4,8 @@ icon: material/newspaper-variant-outline
 date: 2023-12-07 10:00:01
 categories:
 - Kubernetes
-- Security
 tags:
-- Security
 - Kubernetes
-
 ---
 
 #### Overview
