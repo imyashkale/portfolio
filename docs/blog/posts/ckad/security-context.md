@@ -4,8 +4,10 @@ icon: material/newspaper-variant-outline
 date: 2023-12-07 10:00:01
 categories:
 - Kubernetes
+- CKAD
 tags:
 - Kubernetes
+- CKAD
 ---
 
 #### Overview
