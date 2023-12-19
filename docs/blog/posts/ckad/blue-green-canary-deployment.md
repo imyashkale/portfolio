@@ -118,6 +118,10 @@ metadata:
   name: main-deployment
 spec:
   replicas: 5  # Main user base
+  selector:
+    matchLabels:
+      app: canary-test
+      environment: main
   template:
     metadata:
       labels:
@@ -140,11 +144,15 @@ metadata:
   name: canary-deployment
 spec:
   replicas: 1  # Subset of users
+  selector:
+    matchLabels:
+      app: canary-test
+      environment: main
   template:
     metadata:
       labels:
         app: canary-test
-        environment: canary
+        environment: main
     spec:
       containers:
         - name: nginx
