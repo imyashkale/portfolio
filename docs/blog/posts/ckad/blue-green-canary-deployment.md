@@ -118,6 +118,10 @@ metadata:
   name: main-deployment
 spec:
   replicas: 5  # Main user base
+  selector:
+    matchLabels:
+      app: canary-test
+      environment: main
   template:
     metadata:
       labels:
