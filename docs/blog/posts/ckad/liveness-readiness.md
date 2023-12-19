@@ -1,19 +1,18 @@
 ---
-
 title: Implementing and Configuring Liveness and Readiness Probes in Kubernetes
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
 categories:
-  - Kubernetes
-  - CKAD
+- Kubernetes
+- CKAD
 tags:
-  - CKAD
-  - Kubernetes
+- CKAD
+- Kubernetes
 ---
 
 #### Overview
 
-Liveness and readiness probes are essential for maintaining the health and efficiency of applications in Kubernetes. They can be implemented using HTTP requests or command executions inside the container.
+Liveness and readiness probes are crucial for maintaining the health and efficiency of applications in Kubernetes, implemented using HTTP requests or command executions within the container.
 
 !!! info "Documentation"
     [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/){:target="_blank"}.
@@ -22,65 +21,73 @@ Liveness and readiness probes are essential for maintaining the health and effic
 
 1 **Liveness Probe with HTTP Get**
 
-- Checks if the `nginx` container is alive. If the probe fails, the container is restarted.
+- Ensures the `nginx` container is alive. Restarts the container upon probe failure.
 
     ```yaml
     livenessProbe:
-    httpGet:
+      httpGet:
         path: /
         port: 80
-    initialDelaySeconds: 3
-    periodSeconds: 3
+      initialDelaySeconds: 3
+      periodSeconds: 3
     ```
+
+    [HTTP Get Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#http-probes){:target="_blank"}.
 
 2 **Readiness Probe with HTTP Get**
 
-- Ensures the container is ready to accept traffic.
+- Assesses if the container is ready to accept traffic.
 
     ```yaml
     readinessProbe:
-    httpGet:
+      httpGet:
         path: /
         port: 80
-    initialDelaySeconds: 15
-    periodSeconds: 5
+      initialDelaySeconds: 15
+      periodSeconds: 5
     ```
+
+    [Readiness Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#http-probes){:target="_blank"}.
 
 #### Implementing Command-Based Probes
 
-In addition to HTTP probes, Kubernetes allows configuring probes that execute a command inside the container:
+Command-based probes are another method to determine container status:
 
 1 **Liveness Probe with Command**
 
-- Executes a command inside the container. The container is restarted if the command fails.
+- Executes a command inside the container, restarting it upon failure.
 
     ```yaml
     livenessProbe:
-    exec:
+      exec:
         command:
         - cat
         - /tmp/healthy
-    initialDelaySeconds: 15
-    periodSeconds: 20
+      initialDelaySeconds: 15
+      periodSeconds: 20
     ```
+
+    [Command Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-command-liveness-probe){:target="_blank"}.
 
 2 **Readiness Probe with Command**
 
-- Determines if the container is ready to serve traffic by executing a command.
+- Checks container readiness through a command execution.
 
     ```yaml
     readinessProbe:
-    exec:
+      exec:
         command:
         - cat
         - /tmp/ready
-    initialDelaySeconds: 5
-    periodSeconds: 10
+      initialDelaySeconds: 5
+      periodSeconds: 10
     ```
+
+    [Command Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-command-liveness-probe){:target="_blank"}.
 
 #### Example Pod Configuration
 
-Here's a realistic example of a Pod using both HTTP Get and Command probes:
+Here's an example of a Pod using both HTTP Get and Command probes:
 
 ```yaml
 apiVersion: v1
@@ -108,10 +115,10 @@ spec:
       periodSeconds: 10
 ```
 
-In this configuration, the `nginx` container uses an HTTP Get liveness probe and a command-based readiness probe that checks for the existence of the `index.html` file.
+In this configuration, the `nginx` container employs an HTTP Get liveness probe and a command-based readiness probe verifying the `index.html` file's presence.
 
 #### Conclusion
 
-Effectively using liveness and readiness probes in Kubernetes is crucial for ensuring that applications are running correctly and are ready to handle traffic. These probes help Kubernetes manage containers based on their real-time status, enhancing application reliability and availability.
+Effectively utilizing liveness and readiness probes in Kubernetes is vital for ensuring applications run correctly and are prepared for traffic. These probes enable Kubernetes to manage containers based on real-time status, boosting application reliability and availability.
 
 ---
