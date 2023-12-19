@@ -1,5 +1,4 @@
 ---
-
 title: Exploring Admission Control in Kubernetes
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
