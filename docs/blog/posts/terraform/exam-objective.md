@@ -15,8 +15,8 @@ tags:
 
 ### 1. Understand Infrastructure as Code (IaC) Concepts
 
-- **1a.** Explain what IaC is
-- **1b.** Describe advantages of IaC patterns
+- [**1a.** Explain what IaC is](iac.md)
+- [**1b.** Describe advantages of IaC patterns](iac-advantages.md)
 
 ### 2. Understand the Purpose of Terraform
 
