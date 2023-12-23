@@ -113,8 +113,8 @@ plugins:
       tags_file: tags.md
   - blog:
       blog_toc: true
-      categories: true
-
+      categories: true      
+      
 ############################################## MARKDOWN EXTENSIONS ############################################
 
 markdown_extensions:
