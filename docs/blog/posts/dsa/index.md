@@ -26,8 +26,15 @@ To make the most out of this section, ensure you have:
 - **Test-Driven Approach:** Emphasis on validation through extensive test cases within each package.
 - **Continuous Integration:** Leveraging GitHub Actions, the codebase is consistently tested upon each push, ensuring reliability and functionality.
 
+### Index
+
+#### Array
+
+- [Array Introduction](array/introduction.md)
+- [Linear Search, Largest & Lowest Element](array/largest-lowests.md)
+
 ### Acknowledgments
 
 This initiative was inspired by the Apna College DSA Course, aiming to provide a comprehensive and practical approach to learning DSAs in Golang.
 
-
+---
