@@ -3,9 +3,12 @@ title: URLify Hub - Microservices-Driven URL Shortener
 date: 2023-12-25 11:34:00
 description: 
 tags:
+  - Go
   - Kubernetes
   - Microservices
 ---
+!!! danger "In Development"
+    URLify Hub is currently under active development and not yet available for public use. Stay tuned for updates!
 
 The URL Shortener project employs a microservices architecture to efficiently manage and redirect URLs. It integrates URL processing, analytics, and database services, ensuring high scalability and performance for web applications.
 
