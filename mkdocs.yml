@@ -13,7 +13,7 @@ nav:
   - Home: index.md
   - Projects: 
     - Index: projects/index.md
-    - URLify Hub - Microservices-Driven URL Shortener: projects/url-shortner.md
+    - URLify Hub - Microservices-Driven URL Shortener: projects/urlify-hub.md
     - Field Validator: projects/field-validator.md
     - Mongo GO API: projects/mgo-crud.md
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
