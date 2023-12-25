@@ -9,7 +9,7 @@ tags:
 
 The URL Shortener project employs a microservices architecture to efficiently manage and redirect URLs. It integrates URL processing, analytics, and database services, ensuring high scalability and performance for web applications.
 
-## URL Shortener Microservices Architecture
+## Microservices Architecture
 
 ```mermaid
 graph LR
