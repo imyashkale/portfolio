@@ -11,6 +11,8 @@ tags:
 
 'Infra' is a meticulously crafted project that focuses on creating the infrastructure necessary for a bare metal Kubernetes cluster using Terraform on AWS EC2. This initiative showcases a sophisticated blend of infrastructure automation and the practical application of container orchestration in a bare metal context.
 
+---
+
 ## GitHub Repository
 
 Explore more about the project at [Infra on GitHub](https://github.com/imyashkale/infra).
@@ -19,38 +21,44 @@ Explore more about the project at [Infra on GitHub](https://github.com/imyashkal
 
 ## Terraform Variables
 
-1. **Region (`region`):**
-   - **Description:** Sets the AWS region for deploying resources.
-   - **Default Value:** "ap-south-1"
-   - **Purpose:** To establish the geographical location for resource deployment, optimizing performance and adhering to data residency requirements.
+### **Region (`region`)**
 
-2. **AMI (`ami`):**
-   - **Description:** Specifies the Amazon Machine Image for EC2 instances.
-   - **Default Value:** "ami-03f4878755434977f" (Ubuntu 22.04 LTS AMI)
-   - **Purpose:** Ensures consistency and compatibility of EC2 instances using a specific Ubuntu version.
+- **Description:** Sets the AWS region for deploying resources.
+- **Default Value:** "ap-south-1"
+- **Purpose:** To establish the geographical location for resource deployment, optimizing performance and adhering to data residency requirements.
 
-3. **Key Name (`key_name`):**
-   - **Description:** Names the key pair for EC2 instances.
-   - **Default Value:** "mackbook-pro"
-   - **Purpose:** Facilitates secure SSH access to EC2 instances.
+### **AMI (`ami`)**
 
-4. **Local Key Path (`local_key_path`):**
-   - **Description:** Local path to the key file.
-   - **Default Value:** "~/mackbook-pro.pem"
-   - **Purpose:** Specifies the location of the private key for secure connections to EC2 instances.
+- **Description:** Specifies the Amazon Machine Image for EC2 instances.
+- **Default Value:** "ami-03f4878755434977f" (Ubuntu 22.04 LTS AMI)
+- **Purpose:** Ensures consistency and compatibility of EC2 instances using a specific Ubuntu version.
+
+### **Key Name (`key_name`)**
+
+- **Description:** Names the key pair for EC2 instances.
+- **Default Value:** "mackbook-pro"
+- **Purpose:** Facilitates secure SSH access to EC2 instances.
+
+### **Local Key Path (`local_key_path`)**
+
+- **Description:** Local path to the key file.
+- **Default Value:** "~/mackbook-pro.pem"
+- **Purpose:** Specifies the location of the private key for secure connections to EC2 instances.
 
 ---
 
 ## Terraform Outputs
 
-1. **Master Node SSH (`master-node-ssh`):**
-   - **Description:** SSH command for the master node.
-   - **Value:** `ssh -i [local_key_path] ubuntu@[master-node public IP]`
-   - **Purpose:** Provides an easy-to-use SSH command for accessing the master node, incorporating the local key path and the node's public IP.
+### **Master Node SSH (`master-node-ssh`)**
 
-2. **Worker Node SSH (`worker-node-ssh`):**
-   - **Description:** SSH command for the worker node.
-   - **Value:** `ssh -i [local_key_path] ubuntu@[worker-node public IP]`
-   - **Purpose:** Offers a convenient command for securely managing the worker node, essential for cluster operations.
+- **Description:** SSH command for the master node.
+- **Value:** `ssh -i [local_key_path] ubuntu@[master-node public IP]`
+- **Purpose:** Provides an easy-to-use SSH command for accessing the master node, incorporating the local key path and the node's public IP.
+
+### **Worker Node SSH (`worker-node-ssh`)**
+
+- **Description:** SSH command for the worker node.
+- **Value:** `ssh -i [local_key_path] ubuntu@[worker-node public IP]`
+- **Purpose:** Offers a convenient command for securely managing the worker node, essential for cluster operations.
 
 ---
