@@ -16,6 +16,7 @@ nav:
     - URLify Hub - Microservices-Driven URL Shortener: projects/urlify-hub.md
     - Microforge - Creation & Management of Microservices: projects/microforge.md
     - Infra - Infrastructure for Bare Metal Kubernetes Cluster Using Terraform on AWS EC2: projects/infra.md
+    - Scriptor - Streamlining Script Management: projects/scriptor.md
     - Field Validator: projects/field-validator.md
     - Mongo GO API: projects/mgo-crud.md
     - AliceBlue SDK: projects/go-aliceblue-sdk.md
