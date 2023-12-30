@@ -48,6 +48,12 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
 
 ## Certifications
 
+??? success "CKAD: Certified Kubernetes Application Developer"
+    **Issued Date**: 29 Dec 2023  
+    **Credential ID**: <a href="https://www.credly.com/badges/153d3c83-c4dc-43a5-8282-1b66e4cbc8d4" target="_blank">View on Credly</a>  
+    **Download Certificate**: <a href="../static/certifications/ckad-certificate.pdf" download="CKAD Certificate">Download Certificate</a>  
+    **Motivation**: This certification underscores my expertise in Kubernetes application development, encompassing building, monitoring, and troubleshooting scalable applications. My deep understanding of Kubernetes core concepts and configurations plays a vital role in my success with cloud-native application development
+
 ??? success "HashiCorp Certified Terraform Associate 003"
     **Issued Date**: Oct 2023  
     **Credential ID**: <a href="https://www.credly.com/badges/0f97f56d-5e8b-47c5-9c81-ae4ee6bb99f6" target="_blank">View on Credly</a>  
