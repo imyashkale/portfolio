@@ -1,7 +1,6 @@
 ---
 title: Infra - Infrastructure for Bare Metal Kubernetes Cluster Using Terraform on AWS EC2
 date: 2023-12-25 11:34:00
-description: 
 tags:
   - Go
   - Microservices

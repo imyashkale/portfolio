@@ -24,10 +24,13 @@ jobs:
       uses: actions/setup-python@v4.7.1
       with:
         python-version: ${{ env.PYTHON_VERSION }}
-
-    - name: Install Dependencies
+      
+    - name: Install Dependencies - Python
       run: |
         pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox
+        pip install "mkdocs-material[imaging]"
+        apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+        apt-get install pngquant
 
     - name: Build MkDocs Site
       run: |

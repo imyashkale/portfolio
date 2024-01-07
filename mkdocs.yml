@@ -114,6 +114,7 @@ extra:
 plugins:
   - search
   - glightbox
+  - social
   - tags:
       tags_file: tags.md
   - blog:

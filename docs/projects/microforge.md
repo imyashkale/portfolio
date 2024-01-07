@@ -1,7 +1,6 @@
 ---
 title: MicroForge - Simplifying Microservice Development
 date: 2023-12-25 11:34:00
-description: 
 tags:
   - Go
   - Microservices

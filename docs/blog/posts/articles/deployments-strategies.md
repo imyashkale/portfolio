@@ -3,7 +3,6 @@ title: Kubernetes Deployment Strategies
 description: Explore our concise guide on Kubernetes Deployment Strategies, covering Canary, Blue-Green, and Rolling Updates. Learn key concepts, advantages, and practical Kubernetes implementations for each strategy, ideal for developers seeking effective, risk-mitigated application deployment methods.
 icon: material/newspaper-variant-outline
 date: 2023-12-03 09:10:00
-description: 
 categories:
   - Kubernetes
   - Deployment
