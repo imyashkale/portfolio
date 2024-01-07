@@ -1,7 +1,6 @@
 ---
 title: URLify Hub - Microservices-Driven URL Shortener
 date: 2023-12-25 11:34:00
-description: 
 tags:
   - Go
   - Kubernetes

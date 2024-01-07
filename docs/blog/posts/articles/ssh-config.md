@@ -2,7 +2,6 @@
 title: Advanced SSH Configuration - Mastering the SSH Config File
 icon: material/newspaper-variant-outline
 date: 2023-12-31 12:36:00
-description: 
 categories:
   - Linux
 tags:

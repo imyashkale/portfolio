@@ -1,7 +1,6 @@
 ---
 title: Scriptor - Streamlining Script Management.
 date: 2023-12-29 10:20:00
-description:
 tags:
 
 - Go
