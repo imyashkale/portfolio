@@ -10,6 +10,10 @@ A passionate software developer specializing in Golang, AWS, and Kubernetes. Exp
 - **Email:**  
   [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
 
+![Skills](/assets/images/3.jpg){ loading=lazy }
+
+---
+
 ## My Resume
 
 I have detailed my professional experiences, skills, and accomplishments in my resume. You can download it for a more comprehensive overview.

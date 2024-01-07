@@ -27,7 +27,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install mkdocs mkdocs-material pymdown-extensions
+        pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox
 
     - name: Build MkDocs Site
       run: |
