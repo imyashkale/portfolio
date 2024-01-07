@@ -37,7 +37,6 @@ jobs:
       run: |
         mkdir temp-artifact
         mv site/* temp-artifact/
-        mv static temp-artifact/
 
     - name: Upload Site and Static Content to Artifact Storage
       uses: actions/upload-artifact@v3.1.3
