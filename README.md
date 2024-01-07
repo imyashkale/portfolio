@@ -24,10 +24,10 @@ You can run this site locally. Use GitHub's native copy button to easily copy th
    cd portfolio
    ```
 
-3. Install MKDocs:
+3. Install MKDocs & Other Required packages:
 
    ```bash
-   pip install mkdocs
+   pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox
    ```
 
 4. Serve the site:
