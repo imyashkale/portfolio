@@ -35,6 +35,10 @@ jobs:
     - name: Build MkDocs Site
       run: |
         mkdocs build
+    
+    - name: Remove Unwanted Build Artifact
+      run: |
+        rm -rf .cache
 
     - name: Prepare Artifact Content
       run: |
