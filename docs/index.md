@@ -2,6 +2,10 @@
 
 ---
 
+![Skills](assets/images/3.jpg){ loading=lazy }
+
+---
+
 A passionate software developer specializing in Golang, AWS, and Kubernetes. Explore my projects, insights, and journey in the world of coding and cloud technologies.
 
 - **Location:**  
@@ -9,8 +13,6 @@ A passionate software developer specializing in Golang, AWS, and Kubernetes. Exp
 
 - **Email:**  
   [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
-
-![Skills](/assets/images/3.jpg){ loading=lazy }
 
 ---
 
