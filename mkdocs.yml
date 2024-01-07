@@ -113,6 +113,7 @@ extra:
 
 plugins:
   - search
+  - glightbox
   - tags:
       tags_file: tags.md
   - blog:
@@ -127,6 +128,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.tilde
+  # For Images
+  - md_in_html
   # For Tabs
   - pymdownx.tabbed:
       alternate_style: true
