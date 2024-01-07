@@ -1,11 +1,11 @@
 # Projects
 
-Welcome to the Projects section of my portfolio. Here, I showcase a variety of software development projects, demonstrating my expertise in Golang, AWS, Kubernetes, and more.
-
 !!! warning "Experimental Projects"
     The projects listed here are primarily for learning and experimentation. They are not full-fledged applications but rather experiments to explore various technologies and concepts. Please keep this in mind while reviewing and exploring these projects.
 
 ---
+
+Welcome to the Projects section of my portfolio. Here, I showcase a variety of software development projects, demonstrating my expertise in Golang, AWS, Kubernetes, and more.
 
 ## Featured Projects
 
@@ -21,7 +21,7 @@ Welcome to the Projects section of my portfolio. Here, I showcase a variety of s
 
     [:octicons-arrow-right-24: Explore More](urlify-hub.md)
 
-- :fontawesome-brands-golang:{ .lg .middle } __Mongo CRUD API__
+- :fontawesome-brands-golang:{ .lg .middle } __Microforge__
 
     ---
 
@@ -46,7 +46,7 @@ Welcome to the Projects section of my portfolio. Here, I showcase a variety of s
     __Streamlining Script Management.__  
     Scriptor is a command-line interface (CLI) tool that simplifies the process of managing and executing shell scripts from GitHub repositories.
 
-    [:octicons-arrow-right-24: Explore More](infra.md)
+    [:octicons-arrow-right-24: Explore More](scriptor.md)
 
 </div>
 
