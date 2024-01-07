@@ -29,8 +29,8 @@ jobs:
       run: |
         pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox
         pip install "mkdocs-material[imaging]"
-        apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-        apt-get install pngquant
+        sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+        sudo apt-get install -y pngquant
 
     - name: Build MkDocs Site
       run: |
