@@ -32,7 +32,7 @@ nav:
 
 theme:
   name: material
-  favicon: assets/images/favicon.ico
+  favicon: assets/img/favicon.ico
   icon:
     logo: fontawesome/solid/terminal
   font:
