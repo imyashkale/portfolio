@@ -2,6 +2,7 @@
 title: Work with persistent and ephemeral volumes in Pods.
 icon: material/newspaper-variant-outline
 date: 2023-12-12 10:00:01
+comments: true
 categories:
 - Kubernetes
 - CKAD

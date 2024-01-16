@@ -2,6 +2,7 @@
 title: Certified Kubernetes Application Developer (CKAD) Exam Tasks
 icon: material/newspaper-variant-outline
 date: 2023-12-07 10:00:01
+comments: true
 categories:
 - Kubernetes
 - CKAD

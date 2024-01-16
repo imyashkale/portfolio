@@ -2,6 +2,7 @@
 title: Essential Kubernetes YAML Samples for CKAD Exam
 icon: material/newspaper-variant-outline
 date: 2023-11-18 13:34:01
+comments: true
 categories:
   - Kubernetes
   - CKAD

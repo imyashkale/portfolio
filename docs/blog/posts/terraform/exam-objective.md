@@ -2,6 +2,7 @@
 title: HashiCorp Infrastructure Automation Certification
 icon: material/newspaper-variant-outline
 date: 2023-11-18 13:34:01
+comments: true
 categories:
   - Terraform
 tags:

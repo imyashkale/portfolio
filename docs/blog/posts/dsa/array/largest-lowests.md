@@ -2,6 +2,7 @@
 title: Understanding Linear Search, Largest, and Smallest Elements in an Array in Go
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
+comments: true
 categories:
   - DSA
 tags:

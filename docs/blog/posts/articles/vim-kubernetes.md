@@ -2,6 +2,7 @@
 title: Kubernetes Certification Exam - Test Environment Preparation and Management
 icon: material/newspaper-variant-outline
 date: 2023-12-22 09:10:00
+comments: true
 categories:
   - Kubernetes
   - CKAD

@@ -1,6 +1,7 @@
 ---
 title: Deploying and Managing MySQL with Helm in Kubernetes
 date: 2023-11-16 13:34:01
+comments: true
 categories: 
   - Kubernetes
   - CKAD

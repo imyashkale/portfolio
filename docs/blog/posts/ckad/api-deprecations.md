@@ -3,6 +3,7 @@
 title: Addressing API Deprecations in Application Code or Configurations
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
+comments: true
 categories:
   - Kubernetes
   - CKAD

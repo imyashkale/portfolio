@@ -2,6 +2,7 @@
 title: Kubernetes Services with Pod Creation
 icon: material/newspaper-variant-outline
 date: 2023-12-06 21:34:01
+comments: true
 categories:
   - Kubernetes
   - CKAD

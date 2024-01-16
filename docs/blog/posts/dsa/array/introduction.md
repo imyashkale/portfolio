@@ -2,6 +2,7 @@
 title: Understanding Arrays - Memory Structure, Use Cases, and Specific Implementations in Go
 icon: material/newspaper-variant-outline
 date: 2023-12-23 13:34:01
+comments: true
 categories:
   - DSA
 tags:

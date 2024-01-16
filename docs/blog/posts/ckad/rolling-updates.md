@@ -1,6 +1,7 @@
 ---
 title: Performing Rolling Updates in Kubernetes Deployments
 date: 2023-12-07 10:18:01
+comments: true
 categories: 
   - Kubernetes
   - CKAD

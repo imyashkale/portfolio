@@ -2,6 +2,7 @@
 title: Understanding Infrastructure as Code (IaC)
 icon: material/newspaper-variant-outline
 date: 2023-11-19 22:30:01
+comments: true
 categories:
   - Terraform
 tags:
