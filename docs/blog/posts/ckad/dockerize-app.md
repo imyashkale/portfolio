@@ -1,6 +1,7 @@
 ---
 title: Dockerfile Creation for a Go Application
 date: 2023-12-12 12:00:01
+comments: true
 categories:
 - Kubernetes
 - CKAD

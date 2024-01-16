@@ -2,6 +2,7 @@
 title: Creating and Managing ConfigMaps and Secrets in Kubernetes
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
+comments: true
 categories:
   - Kubernetes
   - CKAD

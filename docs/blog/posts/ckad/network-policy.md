@@ -2,6 +2,7 @@
 title: Notes for Network and Services
 icon: material/newspaper-variant-outline
 date: 2023-12-06 21:34:01
+comments: true
 categories:
   - Kubernetes
   - CKAD

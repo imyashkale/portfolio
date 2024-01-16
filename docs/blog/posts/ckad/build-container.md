@@ -1,6 +1,7 @@
 ---
 title: Building and Modifying Container Images Using Docker Commands
 date: 2023-12-12 12:00:01
+comments: true
 categories:
 - Kubernetes
 - CKAD

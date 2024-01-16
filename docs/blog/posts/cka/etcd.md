@@ -2,6 +2,7 @@
 title: Comprehensive Guide to Setting Up etcd with Docker, Local etcdctl, and Data Backup & Restoration
 icon: material/newspaper-variant-outline
 date: 2023-11-18 08:34:01
+comments: true
 categories:
 - Kubernetes
 - CKA

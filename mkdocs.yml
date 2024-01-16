@@ -30,6 +30,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/img/favicon.ico
   icon:
     logo: fontawesome/solid/terminal

@@ -1,6 +1,7 @@
 ---
 title: Modifying Application Deployments with Kustomize in Kubernetes
 date: 2023-11-18 13:34:01
+comments: true
 categories: 
   - Kubernetes
   - CKAD

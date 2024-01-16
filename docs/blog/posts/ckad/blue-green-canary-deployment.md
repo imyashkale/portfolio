@@ -1,6 +1,7 @@
 ---
 title: Implementing Blue/Green and Canary Deployment Strategies in Kubernetes
 date: 2023-11-18 13:34:01
+comments: true
 categories: 
   - Kubernetes
   - CKAD

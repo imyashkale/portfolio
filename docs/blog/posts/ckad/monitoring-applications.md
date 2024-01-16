@@ -3,6 +3,7 @@
 title: Monitoring Applications in Kubernetes with kubectl top
 icon: material/newspaper-variant-outline
 date: 2023-12-07 23:00:00
+comments: true
 categories:
 - Kubernetes
 - CKAD

@@ -2,6 +2,7 @@
 title: Deploy a multi-container Pod using sidecar or init container patterns.
 icon: material/newspaper-variant-outline
 date: 2023-12-12 10:00:01
+comments: true
 categories:
 - Kubernetes
 - CKAD

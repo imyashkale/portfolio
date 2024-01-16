@@ -2,8 +2,8 @@
 title: Enhancing Kubernetes Efficiency for CKAD Exam - Bash 
 icon: material/newspaper-variant-outline
 date: 2023-12-07 13:34:01
+comments: true
 categories:
-
 - Kubernetes
 - CKAD
 tags:
