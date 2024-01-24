@@ -7,7 +7,7 @@ This timeline illustrates my educational background and professional journey, un
 ![Skills](assets/img/timeline.JPG){ loading=lazy }
 
 !!! warning ""
-    Click on the image for an enlarged pop-up view; close it by clicking the upper right cross button or anywhere outside the image
+    Click on the image for an enlarged pop-up view; close it by clicking the upper right cross button.
 
 !!! note ""
     I started college in 2017 and completed two years.
