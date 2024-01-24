@@ -19,7 +19,7 @@ This timeline illustrates my educational background and professional journey, un
 
 ## Education
 
-- **Bachelor of Science - Computer Science Engineering (2017 - 2022):** Completed my degree with a focus on Computer Science Engineering. The transition to online learning during the pandemic allowed me to simultaneously engage in professional work.
+- **BE - Computer Science Engineering (2017 - 2022):** Completed my degree with a focus on Computer Science Engineering. The transition to online learning during the pandemic allowed me to simultaneously engage in professional work.
 
 ## Professional Experience
 
