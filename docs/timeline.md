@@ -23,12 +23,12 @@ This timeline illustrates my educational background and professional journey, un
 
 ## Professional Experience
 
-- **SimSol Technologies And Services Private Limited (2019 - 2022):** Began my professional career here. The flexible, remote work environment during the pandemic enabled me to balance this role with my ongoing studies.
+- **[SimSol Technologies And Services Private Limited (2019 - 2022):](https://www.simsol.in){:target="_blank"}** Began my professional career here. The flexible, remote work environment during the pandemic enabled me to balance this role with my ongoing studies.
 
-- **SRS Business Solutions (India) (2022 - 2023):** Continued to expand my software engineering skills, working on diverse projects.
+- **[SRS Business Solutions (India) (2022 - 2023):](https://www.srsconsultinginc.com/index){:target="_blank"}** Continued to expand my software engineering skills, working on diverse projects.
 !!! danger ""
     ⚠️ In 2023, I was transferred from SRS Business Solutions to Relanto Global based on a company decision. This was not a personal job switch but a transfer initiated by the company, as confirmed by a transfer letter from SRS.
-- **Relanto Global (2023 - Present):** Currently enhancing my professional expertise, contributing to innovative software solutions.
+- **[Relanto Global (2023 - Present):](https://www.relanto.ai){:target="_blank"}** Currently enhancing my professional expertise, contributing to innovative software solutions.
 
 ---
 
