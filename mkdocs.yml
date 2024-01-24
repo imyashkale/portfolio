@@ -8,7 +8,9 @@ copyright: Copyright &copy; Yash Kale
 ############################################## NAVIGATION ############################################
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Home: index.md
+    - Timeline: timeline.md
   - Projects: 
     - Index: projects/index.md
     - URLify Hub - Microservices-Driven URL Shortener: projects/urlify-hub.md
