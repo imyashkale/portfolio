@@ -4,6 +4,8 @@
 
 Embarking on this visionary journey requires early preparation, ensuring the road ahead is clear and manageable. It's about laying a strong foundation today, so our steps towards the future are confident and well-guided
 
+---
+
 !!! info "Vision"
     **Innovating for Tomorrow:** We aspire to be at the forefront of product engineering, creating software solutions that pave the way for future advancements and transforming the tech landscape. Our vision is to craft innovative, forward-thinking software that anticipates and shapes technological progress.
 
@@ -23,7 +25,7 @@ Embarking on this visionary journey requires early preparation, ensuring the roa
 
     Crafting software products using a microservices architecture. This method involves developing your application as a suite of small, autonomous services, each functioning through well-defined APIs. This approach ensures flexibility and scalability.
 
-    [:octicons-arrow-right-24: Explore More](services/product-development.md)
+    <!-- [:octicons-arrow-right-24: Explore More](services/product-development.md) -->
 
 - :fontawesome-solid-gauge:{ .lg .middle } **Serverless Architecture**
 
@@ -31,7 +33,7 @@ Embarking on this visionary journey requires early preparation, ensuring the roa
 
     Developing serverless cloud solutions, freeing you from traditional server management. Our expertise ensures efficient code execution, scalability, and maintenance, allowing your business to focus on growth and innovation.
 
-    [:octicons-arrow-right-24: Explore More](services/serverless-architecture.md)
+    <!-- [:octicons-arrow-right-24: Explore More](services/serverless-architecture.md) -->
 
 - :fontawesome-solid-cloud:{ .lg .middle } **Cloud Consulting**
 
@@ -39,7 +41,7 @@ Embarking on this visionary journey requires early preparation, ensuring the roa
 
     Offers expert cloud computing advice and services, encompassing cloud strategy, migration, deployment, and management. We focus on optimizing the use of cloud resources for maximum efficiency
 
-    [:octicons-arrow-right-24: Explore More](services/cloud-consulting.md)
+    <!-- [:octicons-arrow-right-24: Explore More](services/cloud-consulting.md) -->
 
 - :fontawesome-solid-wand-magic:{ .lg .middle } **CI/CD - Infrastructure Automation**
 
@@ -47,7 +49,7 @@ Embarking on this visionary journey requires early preparation, ensuring the roa
 
     Automating code integration (CI) and deployment (CD), accelerating and securing software delivery. Our approach includes Infrastructure as Code (IaC) for efficient environment setup.
 
-    [:octicons-arrow-right-24: Explore More](services/infrastructure-automation.md)
+    <!-- [:octicons-arrow-right-24: Explore More](services/infrastructure-automation.md) -->
 
 </div>
 

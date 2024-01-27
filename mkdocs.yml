@@ -28,10 +28,10 @@ nav:
     - OS: fundamentals/os.md
   - Blueprints:
     - Index: blueprints/index.md
-    - Product Development: blueprints/services/product-development.md
-    - Serverless Architecture: blueprints/services/serverless-architecture.md
-    - Cloud Consulting: blueprints/services/cloud-consulting.md
-    - Infrastructure Automation: blueprints/services/infrastructure-automation.md
+    # - Product Development: blueprints/services/product-development.md
+    # - Serverless Architecture: blueprints/services/serverless-architecture.md
+    # - Cloud Consulting: blueprints/services/cloud-consulting.md
+    # - Infrastructure Automation: blueprints/services/infrastructure-automation.md
   - Tags: tags.md
 
 ############################################## THEME ############################################
