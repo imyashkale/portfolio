@@ -1,6 +1,6 @@
 # Blueprints
 
-"Welcome to 'Blueprints' — this is where I draft and gather ideas for starting my product engineering company. It's a space for me to shape and share my plans and strategies. Think of this as an evolving sketch of what's to come, a glimpse into the future of technology and innovation.
+"Welcome to 'Blueprints' — this is where I draft and gather ideas for starting my product engineering company. It's a space for me to shape and share my plans and strategies. Think of this as an evolving sketch of what's to come.
 
 Embarking on this visionary journey requires early preparation, ensuring the road ahead is clear and manageable. It's about laying a strong foundation today, so our steps towards the future are confident and well-guided
 
