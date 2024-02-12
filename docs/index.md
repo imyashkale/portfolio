@@ -22,7 +22,7 @@ I have detailed my professional experiences, skills, and accomplishments in my r
 
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-    <a href="assets/resume/Yash_Kale_Resume_v1.9.pdf" class="md-button md-button--primary" download="Yash_Kale_Resume.pdf">Download My Resume</a>
+    <a href="assets/resume/Yash-Kale-Resume-v2.0.pdf" class="md-button md-button--primary" download="Yash-Kale-Golang-AWS-Kubernetes.pdf">Download My Resume</a>
 </div>
 
 ## Summary
