@@ -16,12 +16,16 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
+---
+
 #### Overview
 
 Custom Resources extend the Kubernetes API. A `CustomResourceDefinition` (CRD) is used to define these custom resources.
 
 !!! info "Documentation"
     [Extend the Kubernetes API with CustomResourceDefinitions](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/){:target="_blank"}.
+
+---
 
 #### Example CRD
 
@@ -60,65 +64,70 @@ spec:
     - ct
 ```
 
+---
+
 #### Steps to Use CRDs
 
-1 **Create the CRD Definition**
+1. **Create the CRD Definition**
 
-- Define your custom resource in a YAML file using the structure above.
-- Save this file as `crontab-crd.yaml`.
+    Define your custom resource in a YAML file using the structure above.
+    Save this file as `crontab-crd.yaml`.
 
-2 **Apply the CRD**
+2. **Apply the CRD**
 
-- Use `kubectl` to create the CRD in your cluster:
-
-```bash
-kubectl apply -f crontab-crd.yaml
-```
-
-3 **Define a Custom Resource**
-
-- Once the CRD is applied, you can define custom resources based on it. Example:
-
-```yaml
-apiVersion: "stable.example.com/v1"
-kind: CronTab
-metadata:
-  name: my-new-cron-object
-spec:
-  cronSpec: "* * * * */5"
-  image: my-awesome-cron-image
-  replicas: 1
-```
-
-- Save this as `my-new-cron-object.yaml`.
-
-4 **Create the Custom Resource**
-
-- Apply the custom resource to your cluster:
-
-```bash
-kubectl apply -f my-new-cron-object.yaml
-```
-
-5 **Interact with the Custom Resource**
-
-- Use standard Kubernetes commands to interact with your custom resource:
-  - To get the resource:
+    Use `kubectl` to create the CRD in your cluster:
 
     ```bash
-    kubectl get crontab
+    kubectl apply -f crontab-crd.yaml
     ```
 
-  - To describe the resource:
+3. **Define a Custom Resource**
+
+    Once the CRD is applied, you can define custom resources based on it. Example:
+
+    ```yaml
+    apiVersion: "stable.example.com/v1"
+    kind: CronTab
+    metadata:
+      name: my-new-cron-object
+    spec:
+      cronSpec: "* * * * */5"
+      image: my-awesome-cron-image
+      replicas: 1
+    ```
+
+    Save this as `my-new-cron-object.yaml`.
+
+4. **Create the Custom Resource**
+
+    Apply the custom resource to your cluster:
 
     ```bash
-    kubectl describe crontab my-new-cron-object
+    kubectl apply -f my-new-cron-object.yaml
     ```
+
+5. **Interact with the Custom Resource**
+
+    Use standard Kubernetes commands to interact with your custom resource:
+      To get the resource:
+
+      ```bash
+      kubectl get crontab
+      ```
+
+      To describe the resource:
+
+      ```bash
+      kubectl describe crontab my-new-cron-object
+      ```
+
+---
 
 #### Conclusion
 
 Custom Resources in Kubernetes are a powerful way to introduce new API objects tailored to your application's needs, enhancing the flexibility and functionality of your Kubernetes cluster.
 
-<https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/>
+!!! note "Documentation"
+    [Custom Resources Defination](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/)
 
 ---
