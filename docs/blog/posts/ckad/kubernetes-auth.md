@@ -56,9 +56,9 @@ Role-Based Access Control (RBAC) is used in Kubernetes to manage authorization. 
 
 1. **Define Roles or ClusterRoles**
 
-    Create a Role or ClusterRole to specify permissions. Example for a Role:
+    Create a Role or ClusterRole to specify permissions.
 
-    ```yaml
+    ```yaml title="Example for a Role"
     apiVersion: rbac.authorization.k8s.io/v1
     kind: Role
     metadata:
@@ -71,9 +71,9 @@ Role-Based Access Control (RBAC) is used in Kubernetes to manage authorization. 
 
 2. **Bind Roles to Users/ServiceAccounts**
 
-      Use a RoleBinding or ClusterRoleBinding to grant these permissions to users or ServiceAccounts. Example for a RoleBinding:
+      Use a RoleBinding or ClusterRoleBinding to grant these permissions to users or ServiceAccounts.
 
-      ```yaml
+      ```yaml title="Example for a RoleBinding"
       apiVersion: rbac.authorization.k8s.io/v1
       kind: RoleBinding
       metadata:
