@@ -15,12 +15,16 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
+---
+
 ## Overview
 
 Learn how to perform rolling updates in Kubernetes Deployments, allowing for zero-downtime updates. This guide outlines the steps for updating a Deployment while ensuring continuous service availability.
 
 !!! note
     Before proceeding, ensure you have a basic understanding of Kubernetes Deployments and Services. Visit [Kubernetes Documentation](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) for more information.
+
+---
 
 ## Steps for a Rolling Update
 
@@ -33,7 +37,7 @@ Start by updating the Deployment's pod template, typically by changing the image
 Example:
 
 ```bash
-kubectl set image deployment.v1.apps/my-deployment nginx=nginx:1.16.1
+kubectl set image deployment/my-deployment nginx=nginx:1.16.1
 ```
 
 ### 2. Monitor the Rollout
@@ -54,6 +58,8 @@ kubectl rollout undo deployment/my-deployment
 
 !!! tip
     Always test updates in a staging environment and monitor the deployment closely during the rollout. Be prepared to rollback if any issues are detected.
+
+---Performing Rolling Updates in Kubernetes Deployments
 
 ## Conclusion
 
