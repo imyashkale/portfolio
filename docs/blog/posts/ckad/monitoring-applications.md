@@ -12,6 +12,11 @@ tags:
 - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Monitoring resource usage in Kubernetes clusters is crucial for ensuring the efficient operation of applications. The Kubernetes CLI tool `kubectl top` provides real-time views into the resource usage of nodes and pods in the cluster.

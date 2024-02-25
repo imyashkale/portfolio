@@ -12,6 +12,11 @@ tags:
 
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Application Design and Build (20%)
 
 ### Tasks

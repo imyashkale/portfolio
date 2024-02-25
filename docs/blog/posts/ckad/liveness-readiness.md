@@ -11,6 +11,11 @@ tags:
 - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Liveness and readiness probes are crucial for maintaining the health and efficiency of applications in Kubernetes, implemented using HTTP requests or command executions within the container.

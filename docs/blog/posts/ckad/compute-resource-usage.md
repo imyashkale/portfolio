@@ -12,6 +12,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Effective management of compute resources in Kubernetes involves setting resource requests and limits for containers and defining ResourceQuotas for namespaces.

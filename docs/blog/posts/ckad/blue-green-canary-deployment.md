@@ -10,6 +10,11 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Overview
 
 Learn how to implement blue/green and canary deployment strategies in Kubernetes. These methods enhance stability and reliability when deploying new versions of applications.

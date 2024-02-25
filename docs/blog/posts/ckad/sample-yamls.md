@@ -10,6 +10,12 @@ tags:
   - CKAD
   - Kubernetes
 ---
+
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## 1. Pod
 
 A basic Pod definition running an Nginx container.

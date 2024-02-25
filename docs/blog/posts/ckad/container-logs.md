@@ -12,6 +12,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Accessing and analyzing container logs is a fundamental aspect of Kubernetes application observability and maintenance. Kubernetes provides various tools and commands, like `kubectl logs`, to retrieve and manage logs effectively.

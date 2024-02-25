@@ -12,6 +12,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 API deprecation in Kubernetes is a critical process where changes to an API are announced well in advance, providing users ample time to update their code and tools. This is particularly important because Kubernetes removes support for deprecated APIs in General Availability (GA) only after 12 months or 3 Kubernetes releases, whichever is longer.

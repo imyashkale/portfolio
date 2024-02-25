@@ -11,6 +11,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Admission Control in Kubernetes refers to a set of plugins that intercept requests to the Kubernetes API server after authentication and authorization. These plugins can modify or validate requests to the API server, ensuring compliance with specific policies or enhancing security.

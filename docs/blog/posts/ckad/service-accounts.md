@@ -12,6 +12,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 ServiceAccounts in Kubernetes provide identities for processes running in Pods, enabling them to authenticate with the Kubernetes API server.

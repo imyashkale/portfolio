@@ -10,6 +10,11 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Overview
 
 Debugging Kubernetes applications requires understanding various CLI tools for effective troubleshooting. This guide covers the essential commands and techniques.

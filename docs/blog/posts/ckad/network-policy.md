@@ -11,6 +11,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### 1. Introduction to Network Policies in Kubernetes
 
 - **Purpose**: Network Policies in Kubernetes allow you to control the flow of traffic at the IP address or port level, which is crucial for ensuring that only authorized services can communicate with each other.

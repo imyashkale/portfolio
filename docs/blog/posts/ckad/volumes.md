@@ -12,6 +12,11 @@ tags:
 
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Understanding how to work with persistent and ephemeral volumes in Kubernetes Pods is crucial for managing data storage and lifecycle. Persistent volumes (PVs) provide long-term storage, while ephemeral volumes are temporary and tied to the Pod's lifecycle.

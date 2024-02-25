@@ -12,6 +12,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Kubernetes authentication and authorization are critical for securing access to the Kubernetes API and ensuring that users and services have the correct permissions to perform actions.

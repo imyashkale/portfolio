@@ -12,6 +12,11 @@ tags:
 
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ### Example 1: Deploying a Pod with a Sidecar Container
 
 This example demonstrates deploying a multi-container Pod where one container (the sidecar) reads data written by the main container.

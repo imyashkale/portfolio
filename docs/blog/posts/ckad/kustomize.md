@@ -10,6 +10,11 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Overview
 
 Kustomize is a powerful tool in Kubernetes for customizing application deployments. It allows you to modify and manage configurations without altering the original YAML files. This post covers how to use Kustomize to modify a Kubernetes deployment.

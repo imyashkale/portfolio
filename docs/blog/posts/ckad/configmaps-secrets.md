@@ -11,6 +11,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 ConfigMaps and Secrets are essential Kubernetes resources for managing configuration data and sensitive information in a containerized environment.

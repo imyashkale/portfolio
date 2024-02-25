@@ -10,6 +10,11 @@ tags:
 - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Creating a Dockerfile for a Go application involves defining steps to build a lightweight and efficient Docker image. This includes setting up the Go environment, managing dependencies, and preparing the application for deployment.

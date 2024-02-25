@@ -11,6 +11,11 @@ tags:
 - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 SecurityContexts in Kubernetes allow you to enforce security policies in Pods. They enable you to control permissions, privilege levels, and other security settings for Pods and their containers.

@@ -10,6 +10,11 @@ tags:
 - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Building and modifying container images are crucial skills for developers working with Docker and Kubernetes. This guide covers the essential Docker commands for creating and updating container images, especially for Go applications.

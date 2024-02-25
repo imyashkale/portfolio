@@ -10,6 +10,11 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Overview
 
 This guide explains how to deploy and manage the MySQL database using Helm in a Kubernetes environment. Helm, a package manager for Kubernetes, simplifies the process of managing Kubernetes applications.

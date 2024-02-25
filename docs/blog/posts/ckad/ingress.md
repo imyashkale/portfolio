@@ -11,6 +11,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### 1. Introduction to Kubernetes Ingress
 
 - **Purpose**: Kubernetes Ingress manages external access to applications running within the cluster.

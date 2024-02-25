@@ -11,6 +11,11 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 #### Overview
 
 Custom Resources extend the Kubernetes API. A `CustomResourceDefinition` (CRD) is used to define these custom resources.

@@ -10,6 +10,11 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Overview
 
 Learn how to perform rolling updates in Kubernetes Deployments, allowing for zero-downtime updates. This guide outlines the steps for updating a Deployment while ensuring continuous service availability.
