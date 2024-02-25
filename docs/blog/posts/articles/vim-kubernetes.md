@@ -7,7 +7,6 @@ categories:
   - Kubernetes
   - CKAD
   - CKA
-  - CKS
 tags:
   - CKAD
   - CKA
