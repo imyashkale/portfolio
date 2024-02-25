@@ -15,12 +15,16 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
+---
+
 ## Overview
 
 This guide explains how to deploy and manage the MySQL database using Helm in a Kubernetes environment. Helm, a package manager for Kubernetes, simplifies the process of managing Kubernetes applications.
 
 !!! note
-    For detailed Helm installation instructions, refer to [Installing Helm](https://helm.sh/docs/intro/install/). Helm Charts package all the resource definitions necessary to deploy an application in Kubernetes.
+    For detailed Helm installation instructions, refer to [Installing Helm](https://helm.sh/docs/intro/install/){:target="_blank"}. Helm Charts package all the resource definitions necessary to deploy an application in Kubernetes.
+
+---
 
 ## Deploying MySQL with Helm
 
@@ -46,7 +50,11 @@ helm repo update
 
 Replace `$MYSQL_ROOT_PASSWORD` with your desired root password.
 
-```bash title="Example"
+```bash
+kubectl create ns my-database
+```
+
+```bash
 export MYSQL_ROOT_PASSWORD=strong-password
 ```
 
@@ -71,8 +79,6 @@ helm upgrade my-mysql bitnami/mysql -n my-database --set image.tag=nonexistent
 
 !!! info
     The purpose of this command is to simulate a problematic update, allowing us to demonstrate the rollback process. This update intentionally uses a non-existent tag, which will cause the update to fail, resembling a common real-world issue.
-
-## Managing MySQL with Helm
 
 ### 5. Viewing Helm Release History
 
@@ -108,6 +114,8 @@ To remove the MySQL release:
 ```bash
 helm uninstall my-mysql -n my-database
 ```
+
+---
 
 ## Conclusion
 
