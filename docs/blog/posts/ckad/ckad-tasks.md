@@ -33,7 +33,7 @@ tags:
 - [Implement a blue/green or canary deployment strategy.](blue-green-canary-deployment.md){:target="_blank"}
 - [Perform rolling updates on a Deployment.](rolling-updates.md){:target="_blank"}
 - [Deploy an application using a Helm chart.](helm-charts.md){:target="_blank"}
-- [Modify an application deployment using Kustomize.](kustomize.md){:target="_blank"}
+- [Modify an application deployment using Kustomize.](https://kustomize.io){:target="_blank"}
 
 ---
 
