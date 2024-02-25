@@ -16,6 +16,8 @@ tags:
   ![CKA](../../../assets/img/cka.svg){ width="300" }
 </figure>
 
+---
+
 ## Introduction
 
 In the Kubernetes ecosystem, the Kubelet plays a crucial role as it operates on each node in the cluster to ensure containers are running as expected. However, there may be instances where a worker node, such as `node01`, might not respond. This guide will walk you through the necessary steps to debug and troubleshoot Kubelet-related issues, which is an essential skill for the Certified Kubernetes Administrator (CKA) exam.
