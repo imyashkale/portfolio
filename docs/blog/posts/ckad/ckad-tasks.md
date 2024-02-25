@@ -17,9 +17,15 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
----
+| Category                              | Percentage |
+|---------------------------------------|------------|
+| Application Design and Build          | 20%        |
+| Application Deployment                | 20%        |
+| Application Observability and Maintenance | 15%    |
+| Application Environment, Configuration and Security | 25% |
+| Services and Networking               | 20%        |
 
-## Application Design and Build (20%)
+## Application Design and Build.
 
 - [Create a Dockerfile for a new application.](dockerize-app.md){:target="_blank"}
 - [Build and modify container images using Docker commands.](build-container.md){:target="_blank"}
@@ -28,7 +34,7 @@ tags:
 
 ---
 
-## Application Deployment (20%)
+## Application Deployment.
 
 - [Implement a blue/green or canary deployment strategy.](blue-green-canary-deployment.md){:target="_blank"}
 - [Perform rolling updates on a Deployment.](rolling-updates.md){:target="_blank"}
@@ -37,7 +43,7 @@ tags:
 
 ---
 
-## Application Observability and Maintenance (15%)
+## Application Observability and Maintenance.
 
 - [Address API deprecations in application code or configurations.](api-deprecations.md){:target="_blank"}
 - [Implement and configure liveness and readiness probes.](liveness-readiness.md){:target="_blank"}
@@ -47,7 +53,7 @@ tags:
 
 ---
 
-## Application Environment, Configuration, and Security (25%)
+## Application Environment, Configuration, and Security.
 
 - [Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.](crds.md){:target="_blank"}
 - [Configure ServiceAccounts for application Pods.](service-accounts.md){:target="_blank"}
@@ -59,7 +65,7 @@ tags:
 
 ---
 
-## Services and Networking (20%)
+## Services and Networking.
 
 - [Implement NetworkPolicies for fine-grained network control.](network-policy.md){:target="_blank"}
 - [Configure and troubleshoot access to applications through Services.](services.md){:target="_blank"}  
