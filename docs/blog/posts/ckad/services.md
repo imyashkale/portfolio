@@ -16,6 +16,8 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
+---
+
 #### 1. Introduction to Kubernetes Services
 
 - **Purpose**: Kubernetes Services allow for the exposure of applications running on Pods, both within the cluster and externally.
