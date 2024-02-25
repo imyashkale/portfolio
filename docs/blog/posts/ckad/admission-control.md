@@ -40,6 +40,8 @@ There are several admission control plugins available in Kubernetes, each servin
 - **PodSecurityPolicy**
 - **ResourceQuota**
 
+---
+
 #### Steps to Configure Admission Control
 
 1. **Identify Required Plugins**

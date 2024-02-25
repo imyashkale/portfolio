@@ -52,7 +52,7 @@ tags:
 - [Utilize CustomResourceDefinitions (CRDs) and Kubernetes Operators.](crds.md){:target="_blank"}
 - [Configure ServiceAccounts for application Pods.](service-accounts.md){:target="_blank"}
 - [Manage Kubernetes authentication, authorization](kubernetes-auth.md){:target="_blank"}
-- [Admission control processes.](admission-control.md){:target="_blank"}
+- [Admission control.](admission-control.md){:target="_blank"}
 - [Set up resource requests, limits, and quotas in Pod definitions.](compute-resource-usage.md){:target="_blank"}
 - [Create and manage ConfigMaps and Secrets.](configmaps-secrets.md){:target="_blank"}
 - [Apply SecurityContexts to enforce security policies in Pods.](security-context.md){:target="_blank"}
