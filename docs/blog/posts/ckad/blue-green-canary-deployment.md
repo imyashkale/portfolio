@@ -15,6 +15,8 @@ tags:
   ![CKAD](../../../assets/img/ckad.png){ width="300" }
 </figure>
 
+---
+
 ## Overview
 
 Learn how to implement blue/green and canary deployment strategies in Kubernetes. These methods enhance stability and reliability when deploying new versions of applications.
@@ -28,11 +30,7 @@ Learn how to implement blue/green and canary deployment strategies in Kubernetes
 
 Blue/Green Deployment involves two identical environments: one active (Blue) and one idle (Green). New versions are deployed to Green and, after testing, traffic is switched from Blue to Green.
 
-### Example Blue/Green Setup
-
-**Blue Deployment**:
-
-```yaml
+```yaml title="Blue Deployment"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -59,9 +57,7 @@ spec:
             - containerPort: 80
 ```
 
-**Green Deployment**:
-
-```yaml
+```yaml title="Green Deployment"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -88,9 +84,7 @@ spec:
             - containerPort: 80
 ```
 
-**Service to Switch Traffic**:
-
-```yaml
+```yaml title="Service to Switch Traffic"
 apiVersion: v1
 kind: Service
 metadata:
@@ -107,17 +101,15 @@ spec:
 !!! tip "Switching Traffic"
     Update the `color` label in the Service from `blue` to `green` to direct traffic to the new version.
 
+---
+
 ## Canary Deployment
 
 ### What is Canary Deployment?
 
 Canary Deployment involves rolling out a new version to a small subset of users before deploying it to the entire user base, allowing for gradual and controlled updates.
 
-### Example Canary Setup
-
-**Main Deployment**:
-
-```yaml
+```yaml title="Main Deployment"
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -184,6 +176,8 @@ spec:
 
 !!! tip "Managing Traffic"
     Control user exposure to the new version by adjusting the number of replicas in the canary deployment.
+
+---
 
 ## Conclusion
 
