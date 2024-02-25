@@ -12,6 +12,13 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
 #### Overview
 
 API deprecation in Kubernetes is a critical process where changes to an API are announced well in advance, providing users ample time to update their code and tools. This is particularly important because Kubernetes removes support for deprecated APIs in General Availability (GA) only after 12 months or 3 Kubernetes releases, whichever is longer.
@@ -20,23 +27,27 @@ API deprecation in Kubernetes is a critical process where changes to an API are 
     - [Kubernetes Deprecation Policy](https://kubernetes.io/docs/reference/using-api/deprecation-policy/){:target="_blank"}.
     - [Deprecated API Migration Guide](https://kubernetes.io/docs/reference/using-api/deprecation-guide/){:target="_blank"}.
 
+---
+
 #### Addressing API Deprecations
 
-1 **Stay Informed**
+1. **Stay Informed**
 
-- Regularly review the Kubernetes changelog and deprecation notices to stay ahead of upcoming changes.
+    Regularly review the Kubernetes changelog and deprecation notices to stay ahead of upcoming changes.
 
-2 **Update Code and Configurations**
+2. **Update Code and Configurations**
 
-- Modify application code and configurations to adopt the updated API versions. This is crucial for maintaining compatibility and functionality.
+    Modify application code and configurations to adopt the updated API versions. This is crucial for maintaining compatibility and functionality.
 
-3 **Test Changes**
+3. **Test Changes**
 
-- After updating to newer APIs, thoroughly test your application to ensure there are no regressions or compatibility issues.
+    After updating to newer APIs, thoroughly test your application to ensure there are no regressions or compatibility issues.
 
-4 **Monitor for Future Deprecations**
+4. **Monitor for Future Deprecations**
 
-- Continuously monitor Kubernetes releases for new deprecations to ensure your application remains compatible with future Kubernetes versions.
+    Continuously monitor Kubernetes releases for new deprecations to ensure your application remains compatible with future Kubernetes versions.
+
+---
 
 #### Conclusion
 

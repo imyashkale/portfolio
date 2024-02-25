@@ -12,15 +12,22 @@ tags:
 
 ---
 
-### Example 1: Deploying a Pod with a Sidecar Container
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
+### Deploying a Pod with a Sidecar Container
 
 This example demonstrates deploying a multi-container Pod where one container (the sidecar) reads data written by the main container.
 
-```yaml
+```yaml title="multi-pod.yaml"
 apiVersion: v1
 kind: Pod
 metadata:
-  name: sidecar-test
+  name: multi-pod
 spec:
   containers:
     - name: writer
@@ -40,17 +47,19 @@ spec:
       emptyDir: {}
 ```
 
-In this deployment, the `writer` container writes data to a shared volume, and the `sidecar` container continuously reads and displays this data from the shared volume【28†source】.
+In this deployment, the `writer` container writes data to a shared volume, and the `sidecar` container continuously reads and displays this data from the shared volume.
 
-### Example 2: Deploying a Pod with an Init Container
+---
+
+### Deploying a Pod with an Init Container
 
 This example illustrates deploying a Pod with an init container that must complete its task before the main container starts.
 
-```yaml
+```yaml title="init-container.yaml"
 apiVersion: v1
 kind: Pod
 metadata:
-  name: init-test
+  name: init-container
 spec:
   containers:
     - name: nginx
@@ -58,9 +67,15 @@ spec:
   initContainers:
     - name: busybox
       image: busybox:stable
-      command: ['sh', '-c', 'sleep 60']
+      command: ['sh', '-c', 'sleep 30']
 ```
 
-In this setup, the `busybox` init container runs a simple sleep command for 60 seconds. Once this init container completes its execution, the main `nginx` container will start【29†source】.
+In this setup, the `busybox` init container runs a simple sleep command for 30 seconds. Once this init container completes its execution, the main `nginx` container will start.
 
-These examples can be deployed in your Kubernetes environment using `kubectl apply -f <filename>.yaml`. They illustrate the use of sidecar and init containers, offering practical insights into their deployment and functionality in a Kubernetes setting.
+---
+
+## Conclusion
+
+These examples can be deployed in your Kubernetes environment. They illustrate the use of sidecar and init containers, offering practical insights into their deployment and functionality in a Kubernetes setting.
+
+---

@@ -12,6 +12,11 @@ tags:
 
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
 ## Accelerating Command Execution in CKAD Exam
 
 The Certified Kubernetes Application Developer (CKAD) exam requires efficiency in handling Kubernetes commands. To improve speed and accuracy, consider setting up the following Bash aliases:

@@ -11,9 +11,16 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
 #### 1. Introduction to Network Policies in Kubernetes
 
-- **Purpose**: Network Policies in Kubernetes allow you to control the flow of traffic at the IP address or port level, which is crucial for ensuring that only authorized services can communicate with each other.
+Network Policies in Kubernetes allow you to control the flow of traffic at the IP address or port level, which is crucial for ensuring that only authorized services can communicate with each other.
 
 #### 2. Understanding Pod Isolation
 
@@ -56,7 +63,6 @@ tags:
 #### 4. Implementing a Default Deny Network Policy
 
 - **Objective**: Create a default deny policy to ensure that no unauthorized communication occurs.
-- **Method**:
 
      ```yaml
      apiVersion: networking.k8s.io/v1
@@ -73,7 +79,6 @@ tags:
 #### 5. Allowing Traffic from Front-end to Back-end
 
 - **Objective**: Allow only the front-end pod to communicate with the back-end pod.
-- **Method**:
 
      ```yaml
      apiVersion: networking.k8s.io/v1
@@ -103,6 +108,10 @@ tags:
 
 - **Testing**: Use `kubectl exec` to simulate traffic from the front-end to the back-end and verify that the traffic is allowed. Attempt to access the back-end from a different pod and observe that the traffic is blocked.
 
-#### 7. Summary
+---
 
-- **Best Practices**: Employing network policies ensures secure communication within your Kubernetes cluster, adhering to the principle of least privilege.
+#### Summary
+
+  Employing network policies ensures secure communication within your Kubernetes cluster, adhering to the principle of least privilege.
+
+---

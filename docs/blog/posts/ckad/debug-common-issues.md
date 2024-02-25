@@ -10,6 +10,13 @@ tags:
   - CKAD
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
 ## Overview
 
 Debugging Kubernetes applications requires understanding various CLI tools for effective troubleshooting. This guide covers the essential commands and techniques.
@@ -19,36 +26,19 @@ Debugging Kubernetes applications requires understanding various CLI tools for e
 
 ## Essential CLI Tools for Debugging
 
-- **kubectl get pods**: Checks the status of all Pods in a Namespace.
-- **kubectl describe**: Provides detailed information about Kubernetes objects.
-- **kubectl logs**: Retrieves container logs for diagnosing issues.
+  ```bash title="Checks the status of all Pods in a Namespace."
+    kubectl get pods
+  ```
 
-## Debugging Steps
+  ```bash title="Provides detailed information about Kubernetes objects."
+    kubectl describe <resource> <resource-name>
+  ```
 
-### Check Pod Status
+  ```bash title="Retrieves container logs for diagnosing issues."
+    kubectl logs <pod-name>
+  ```
 
-Use `kubectl get pods` to view Pod status within a Namespace. For a broader scope, add `--all-namespaces`.
-
-```bash
-kubectl get pods
-kubectl get pods --all-namespaces
-```
-
-### Inspect Specific Pods
-
-For detailed information on a single Pod, use `kubectl describe pod [pod-name]`.
-
-```bash
-kubectl describe pod my-pod
-```
-
-### Retrieve Container Logs
-
-To diagnose issues within a container, use `kubectl logs [pod-name]`.
-
-```bash
-kubectl logs my-pod
-```
+---
 
 !!! tip "Additional Tips"
     If initial investigations do not reveal the problem, consider checking cluster-level logs for more comprehensive insights.

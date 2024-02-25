@@ -11,6 +11,13 @@ tags:
   - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
 #### Overview
 
 Admission Control in Kubernetes refers to a set of plugins that intercept requests to the Kubernetes API server after authentication and authorization. These plugins can modify or validate requests to the API server, ensuring compliance with specific policies or enhancing security.
@@ -18,9 +25,13 @@ Admission Control in Kubernetes refers to a set of plugins that intercept reques
 !!! info "Documentation"
     [Using Admission Controllers](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/){:target="_blank"}.
 
+---
+
 #### Admission Control Plugins
 
-There are several admission control plugins available in Kubernetes, each serving a specific purpose. Some common plugins include:
+There are several admission control plugins available in Kubernetes, each serving a specific purpose.
+
+  Some common plugins include:
 
 - **NamespaceLifecycle**
 - **LimitRanger**
@@ -29,29 +40,33 @@ There are several admission control plugins available in Kubernetes, each servin
 - **PodSecurityPolicy**
 - **ResourceQuota**
 
+---
+
 #### Steps to Configure Admission Control
 
-1 **Identify Required Plugins**
+1. **Identify Required Plugins**
 
-- Determine which admission control plugins are necessary for your specific requirements.
+    Determine which admission control plugins are necessary for your specific requirements.
 
-2 **Configure kube-apiserver**
+2. **Configure kube-apiserver**
 
-- Admission control plugins are enabled in the kube-apiserver configuration.
-- Locate the kube-apiserver manifest, typically at `/etc/kubernetes/manifests/kube-apiserver.yaml`.
-- Add the `--enable-admission-plugins` flag with a comma-separated list of plugins. Example:
+    Admission control plugins are enabled in the kube-apiserver configuration.
+    Locate the kube-apiserver manifest, typically at `/etc/kubernetes/manifests/kube-apiserver.yaml`.
+    Add the `--enable-admission-plugins` flag with a comma-separated list of plugins. Example:
 
-```bash
---enable-admission-plugins=NamespaceLifecycle,LimitRanger,ServiceAccount
-```
+    ```bash
+    --enable-admission-plugins=NamespaceLifecycle,LimitRanger,ServiceAccount
+    ```
 
-3 **Restart kube-apiserver**
+3. **Restart kube-apiserver**
 
-- After modifying the kube-apiserver manifest, restart the kube-apiserver process. This is usually handled automatically by Kubernetes when the manifest file is updated.
+    After modifying the kube-apiserver manifest, restart the kube-apiserver process. This is usually handled automatically by Kubernetes when the manifest file is updated.
 
-4 **Verify Plugin Activation**
+4. **Verify Plugin Activation**
 
-- Ensure that the plugins are active and working as expected by observing the API server logs or testing the functionality of the plugins.
+    Ensure that the plugins are active and working as expected by observing the API server logs or testing the functionality of the plugins.
+
+---
 
 #### Conclusion
 

@@ -11,6 +11,13 @@ tags:
 - Kubernetes
 ---
 
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKAD](../../../assets/img/ckad.png){ width="300" }
+</figure>
+
+---
+
 #### Overview
 
 Liveness and readiness probes are crucial for maintaining the health and efficiency of applications in Kubernetes, implemented using HTTP requests or command executions within the container.
@@ -18,11 +25,13 @@ Liveness and readiness probes are crucial for maintaining the health and efficie
 !!! info "Documentation"
     [Configure Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/){:target="_blank"}.
 
+---
+
 #### Implementing HTTP Get Probes
 
-1 **Liveness Probe with HTTP Get**
+1. Liveness Probe with HTTP Get
 
-- Ensures the `nginx` container is alive. Restarts the container upon probe failure.
+    Ensures the `nginx` container is alive. Restarts the container upon probe failure.
 
     ```yaml
     livenessProbe:
@@ -35,9 +44,9 @@ Liveness and readiness probes are crucial for maintaining the health and efficie
 
     [HTTP Get Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#http-probes){:target="_blank"}.
 
-2 **Readiness Probe with HTTP Get**
+2. **Readiness Probe with HTTP Get**
 
-- Assesses if the container is ready to accept traffic.
+    Assesses if the container is ready to accept traffic.
 
     ```yaml
     readinessProbe:
@@ -50,13 +59,15 @@ Liveness and readiness probes are crucial for maintaining the health and efficie
 
     [Readiness Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#http-probes){:target="_blank"}.
 
+---
+
 #### Implementing Command-Based Probes
 
 Command-based probes are another method to determine container status:
 
-1 **Liveness Probe with Command**
+1. **Liveness Probe with Command**
 
-- Executes a command inside the container, restarting it upon failure.
+    Executes a command inside the container, restarting it upon failure.
 
     ```yaml
     livenessProbe:
@@ -70,9 +81,9 @@ Command-based probes are another method to determine container status:
 
     [Command Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-command-liveness-probe){:target="_blank"}.
 
-2 **Readiness Probe with Command**
+2. **Readiness Probe with Command**
 
-- Checks container readiness through a command execution.
+    Checks container readiness through a command execution.
 
     ```yaml
     readinessProbe:
@@ -85,6 +96,8 @@ Command-based probes are another method to determine container status:
     ```
 
     [Command Probes Documentation](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-command-liveness-probe){:target="_blank"}.
+
+---
 
 #### Example Pod Configuration
 
@@ -117,6 +130,8 @@ spec:
 ```
 
 In this configuration, the `nginx` container employs an HTTP Get liveness probe and a command-based readiness probe verifying the `index.html` file's presence.
+
+---
 
 #### Conclusion
 
