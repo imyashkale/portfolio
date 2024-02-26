@@ -58,7 +58,7 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
     **Issued Date**: 26 Feb 2024  
     **Credential ID**: <a href="https://www.credly.com/badges/8234a7da-b9c8-47cb-a46d-947b88270a2e" target="_blank">View on Credly</a>  
     **Download Certificate**: <a href="assets/certifications/cka-certificate.pdf" download="CKAD Certificate">Download Certificate</a>  
-    **Motivation**: The CKA certification highlights my proficiency as a cluster administrator in Kubernetes, focusing on application scalability, monitoring, and issue resolution. This certification demonstrates my dedication to mastering Kubernetes and excelling in cluster administration for cloud-native applications.
+    **Motivation**: This certification demonstrates my dedication to mastering Kubernetes and excelling in cluster administration for cloud-native applications.
 
 ??? success "Certified Kubernetes Application Developer (CKAD)"
     **Issued Date**: 29 Dec 2023  
