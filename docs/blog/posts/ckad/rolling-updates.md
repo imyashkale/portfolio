@@ -58,8 +58,7 @@ kubectl rollout undo deployment/my-deployment
 
 !!! tip
     Always test updates in a staging environment and monitor the deployment closely during the rollout. Be prepared to rollback if any issues are detected.
-
----Performing Rolling Updates in Kubernetes Deployments
+    Performing Rolling Updates in Kubernetes Deployments
 
 ## Conclusion
 
