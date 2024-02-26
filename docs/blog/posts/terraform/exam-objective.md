@@ -1,5 +1,5 @@
 ---
-title: HashiCorp Infrastructure Automation Certification
+title: Terraform - HashiCorp Infrastructure Automation Certification
 icon: material/newspaper-variant-outline
 date: 2023-11-18 13:34:01
 comments: true
@@ -8,6 +8,11 @@ categories:
 tags:
   - Terraform
 ---
+
+<!-- markdownlint-disable MD033 -->
+<figure markdown="span">
+  ![CKA](../../../assets/img/terraform.svg){ width="300" }
+</figure>
 
 ## Exam Objectives
 
