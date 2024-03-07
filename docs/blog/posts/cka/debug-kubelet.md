@@ -26,6 +26,9 @@ In the Kubernetes ecosystem, the Kubelet plays a crucial role as it operates on 
 
 Before diving into debugging, it's essential to understand that the Kubelet is an agent that runs on each node in the Kubernetes cluster. It works with the container runtime and the API server to manage containers and pods on its node.
 
+!!! info "Documentation"
+    [Component Tools - Kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/){:target="_blank"}.
+
 ## Debugging Steps
 
 ### 1. Checking the Kubelet Status
@@ -60,7 +63,13 @@ sudo systemctl stop kubelet
 sudo systemctl restart kubelet
 ```
 
-### 3. Locating Kubelet in Running Processes
+- **Check Status Kubelet**:
+
+```bash
+sudo systemctl status kubelet
+```
+
+### 3. Kubelet in Running Processes
 
 To find the Kubelet process, use:
 
@@ -68,7 +77,7 @@ To find the Kubelet process, use:
 ps aux | grep kubelet
 ```
 
-### 4. Locating Kubelet Configuration File
+### 4. Kubelet Configuration File
 
 The Kubelet configuration file is crucial for its operation. Typically, you can find it at:
 
@@ -76,7 +85,7 @@ The Kubelet configuration file is crucial for its operation. Typically, you can 
 /etc/kubernetes/kubelet.conf
 ```
 
-### 5. Locating Kubelet Binary
+### 5. Kubelet Binary
 
 The Kubelet binary is usually located in:
 
@@ -84,7 +93,7 @@ The Kubelet binary is usually located in:
 /usr/bin/kubelet
 ```
 
-### 6. Locating Kubelet Certificates
+### 6. Kubelet Certificates
 
 Certificates are vital for Kubelet's secure communication. They can usually be found in:
 
@@ -92,7 +101,7 @@ Certificates are vital for Kubelet's secure communication. They can usually be f
 /etc/kubernetes/pki/
 ```
 
-### 7. Locating Kubelet Logs
+### 7. Kubelet Logs
 
 Kubelet logs are instrumental for troubleshooting. View them with:
 
@@ -100,7 +109,7 @@ Kubelet logs are instrumental for troubleshooting. View them with:
 journalctl -u kubelet
 ```
 
-### 8. Locating Kubelet Static Pod Location
+### 8. Kubelet Static Pod Location
 
 Kubelet can manage static pods, and their manifests are typically found in:
 
@@ -125,6 +134,8 @@ Kubelet can manage static pods, and their manifests are typically found in:
 ### Issue: Certificate Issues
 
 - **Solution**: Renew certificates if they are expired and ensure Kubelet has the correct paths to the certificates.
+
+---
 
 ## Conclusion
 
