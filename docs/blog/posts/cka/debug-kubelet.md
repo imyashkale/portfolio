@@ -26,6 +26,9 @@ In the Kubernetes ecosystem, the Kubelet plays a crucial role as it operates on 
 
 Before diving into debugging, it's essential to understand that the Kubelet is an agent that runs on each node in the Kubernetes cluster. It works with the container runtime and the API server to manage containers and pods on its node.
 
+!!! info "Documentation"
+    [Component Tools - Kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/){:target="_blank"}.
+
 ## Debugging Steps
 
 ### 1. Checking the Kubelet Status
@@ -58,6 +61,12 @@ sudo systemctl stop kubelet
 
 ```bash
 sudo systemctl restart kubelet
+```
+
+- **Check Status Kubelet**:
+
+```bash
+sudo systemctl status kubelet
 ```
 
 ### 3. Kubelet in Running Processes
