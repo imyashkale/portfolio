@@ -9,7 +9,6 @@ categories:
 tags:
 - CKA
 - Kubernetes
-
 ---
 
 <!-- markdownlint-disable MD033 -->
