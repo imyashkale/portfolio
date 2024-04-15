@@ -233,14 +233,19 @@ Everest Education Society Group of Institutions, Aurangabad, Maharashtra, India
 
 ## Conferences Attended
 
-**[DevOpsDays Bengaluru 2023](https://devopsdays.org/events/2023-bengaluru/welcome/){:target="_blank"} (October 20-21, 2023)**
+**[KCD Pune 2024](https://kcdpune.in/){:target="_blank"} (December 8, 2023)**  
 
-- Participated in the esteemed DevOpsDays conference in Bengaluru. This event offered a unique opportunity for learning, sharing, and networking within the DevOps community.
-- For more insights into my experience at the event, check out my [LinkedIn post](https://www.linkedin.com/posts/imyashkale_devopsdays-networking-activity-7121517709237891074-3L2t/){:target="_blank"}.
+- Largest cloud-native event in Pune, focusing on open source and community
+- Engaged in sessions, workshops, and networking to stay abreast of industry trends
 
 **[KubeDay India 2023](https://kubedayindia2023.sched.com){:target="_blank"} (December 8, 2023)**  
 
 - Participated in the dynamic KubeDay conference in Bengaluru. This event, organized by the Cloud Native Computing Foundation, was a prime occasion for engaging with the vibrant Kubernetes and cloud-native community.  
+
+**[DevOpsDays Bengaluru 2023](https://devopsdays.org/events/2023-bengaluru/welcome/){:target="_blank"} (October 20-21, 2023)**
+
+- Participated in the esteemed DevOpsDays conference in Bengaluru. This event offered a unique opportunity for learning, sharing, and networking within the DevOps community.
+- For more insights into my experience at the event, check out my [LinkedIn post](https://www.linkedin.com/posts/imyashkale_devopsdays-networking-activity-7121517709237891074-3L2t/){:target="_blank"}.
 
 ## Languages
 
