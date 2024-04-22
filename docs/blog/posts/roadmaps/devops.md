@@ -26,13 +26,19 @@ Explore the essential technologies and practices in the world of DevOps with thi
 
 ---
 
-::timeline:: center alternate
+::timeline::
 
 - title: Git And GitHub
   sub_title: Version Control System.
   icon: ':material-github:'
   content: |-
     VCS like Git enables teams to track changes in source code, facilitating collaboration and ensuring version control, which is crucial for DevOps practices.
+
+- title: Python
+  sub_title: Programming Language
+  icon: ':simple-python:'
+  content: |-
+    Python is a versatile and powerful programming language that is widely used in DevOps for automation, scripting. Its simplicity and readability make it an excellent choice for tasks such as writing automation scripts, managing infrastructure using tools like Ansible. Having a solid understanding of Python is highly beneficial for DevOps engineers as it allows them to automate tasks, streamline workflows, and enhance productivity.
 
 - title: Ubuntu - Linux
   sub_title: Operating System
