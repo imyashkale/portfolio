@@ -27,7 +27,7 @@ jobs:
       
     - name: Install Dependencies - Python
       run: |
-        pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox
+        pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox neoteroi-mkdocs
         pip install "mkdocs-material[imaging]"
         sudo apt-get install -y libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
         sudo apt-get install -y pngquant

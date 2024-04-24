@@ -157,7 +157,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - neoteroi.timeline
 ############################################## Extra CSS ############################################
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.min.css
