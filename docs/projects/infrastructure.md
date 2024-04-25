@@ -12,6 +12,11 @@ tags:
 
 I will introduce the various Infrastructure as Code (IaC) projects I've worked on. These projects utilize Terraform to manage AWS infrastructure and Kubernetes to deploy applications.
 
+## High Level Architecture
+
+![Infrastructure](../assets/img/projects/infrastructure-light.png#only-light){ loading=lazy }
+![Infrastructure](../assets/img/projects/infrastructure-dark.png#only-dark){ loading=lazy }
+
 ## Featured Projects
 
 <!-- markdownlint-disable MD033 -->
