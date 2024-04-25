@@ -10,7 +10,7 @@ tags:
 
 #### Introduction
 
-I will introduce the various Infrastructure as Code (IaC) projects I've worked on. These projects utilize Terraform and Kubernetes to manage AWS infrastructure and deploy applications.
+I will introduce the various Infrastructure as Code (IaC) projects I've worked on. These projects utilize Terraform to manage AWS infrastructure and Kubernetes to deploy applications.
 
 ## Featured Projects
 
@@ -41,7 +41,9 @@ I will introduce the various Infrastructure as Code (IaC) projects I've worked o
 
     ---
 
-    The Terraform Kubernetes Infrastructure project extends the EKS cluster by deploying additional Kubernetes resources. These include an Application Load Balancer (ALB) for external access, ArgoCD for GitOps-style continuous delivery, and ExternalDNS for managing DNS records.
+    The Terraform Kubernetes Infrastructure project extends the EKS cluster by deploying additional Kubernetes resources. 
+    <br>
+    These include an Application Load Balancer (ALB) for external access, ArgoCD for GitOps-style continuous delivery, and ExternalDNS for managing DNS records.
 
     [:octicons-arrow-right-24: Explore Repo](https://github.com/imyashkale/terraform-k8s-infrastructure){:target="_blank"}
 
@@ -49,15 +51,19 @@ I will introduce the various Infrastructure as Code (IaC) projects I've worked o
 
     ---
 
-    The Homepage Kubernetes Configurations project contains the Kubernetes manifests for deploying the homepage application. These configurations define how the application should run within the Kubernetes cluster, including pods, services, and ingresses.
+    The Homepage Application Kubernetes Configurations project contains the Kubernetes manifests for deploying the homepage application.
+    <br>
+    These configurations define how the application should run within the Kubernetes cluster, including pods, services, and ingresses.
 
     [:octicons-arrow-right-24: Explore Repo](https://github.com/imyashkale/homepage-k8s-configs){:target="_blank"}
 
-- :fontawesome-brands-golang:{ .lg .middle } __Homepage Application project__
+- :fontawesome-brands-golang:{ .lg .middle } __Homepage - Go Application project__
 
     ---
 
-    The Homepage Application project is a sample application that showcases my skills as a developer. It can be deployed using the Kubernetes configurations provided in the previous project.
+    The Homepage Application project is a sample application that showcases my skills as a developer.
+    <br>
+    It can be deployed using the Kubernetes configurations provided in the previous project.
 
     [:octicons-arrow-right-24: Explore Repo](https://github.com/imyashkale/homepage){:target="_blank"}
 
