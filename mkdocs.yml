@@ -24,6 +24,8 @@ nav:
   - Blog:
     - Index: blog/index.md
     - Pinned Post: blog/pinned.md
+  - Certifications:
+    - Index: certifications/certifications-planned.md
   - Blueprints:
     - Index: blueprints/index.md
   - Tags: tags.md
