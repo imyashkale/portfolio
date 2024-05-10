@@ -76,7 +76,7 @@ jobs:
 
     - name: Sync Directory to S3
       run: |
-        aws s3 sync deployment s3://${{ env.S3_BUCKET_NAME }}/ --delete
+        aws s3 sync deployment s3://${{ env.S3_BUCKET_NAME }}/ --delete --delete --exact-timestamps --size-only
 
     - name: Invalidate CloudFront Distribution
       run: |
