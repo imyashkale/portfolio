@@ -1,0 +1,5 @@
+mkdocs-material
+pymdown-extensions
+mkdocs-glightbox
+neoteroi-mkdocs
+mkdocs-material[imaging]
