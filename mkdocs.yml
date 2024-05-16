@@ -13,7 +13,6 @@ nav:
     - Timeline: timeline.md
   - Projects: 
     - Index: projects/index.md
-    - Kubernetes Infrastructure: projects/infrastructure.md
     - URLify Hub - Microservices-Driven URL Shortener: projects/urlify-hub.md
     - Microforge - Creation & Management of Microservices: projects/microforge.md
     - Infra - Infrastructure for Bare Metal Kubernetes Cluster Using Terraform on AWS EC2: projects/infra.md
@@ -24,10 +23,9 @@ nav:
   - Blog:
     - Index: blog/index.md
     - Pinned Post: blog/pinned.md
+  - Platform Engineering: projects/infrastructure.md
   - Certifications:
     - Index: certifications/certifications-planned.md
-  - Blueprints:
-    - Index: blueprints/index.md
   - Tags: tags.md
 
 ############################################## THEME ############################################
