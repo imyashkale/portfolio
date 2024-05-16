@@ -8,6 +8,10 @@ tags:
   - Kubernetes
 ---
 
+!!! danger "Under Construction"
+    Checkout the repos here
+    <https://github.com/imyashkale?tab=repositories>
+
 #### Introduction
 
 I will introduce the various Infrastructure as Code (IaC) projects I've worked on. These projects utilize Terraform to manage AWS infrastructure and Kubernetes to deploy applications.
