@@ -23,7 +23,7 @@ nav:
   - Blog:
     - Index: blog/index.md
     - Pinned Post: blog/pinned.md
-  - Platform Engineering: platform-engineering/infrastructure.md
+  - Platform Engineering: platform-engineering/introduction.md
   - Certifications:
     - Index: certifications/certifications.md
   - Tags: tags.md
