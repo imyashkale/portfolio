@@ -6,9 +6,11 @@ comments: true
 categories:
   - Kubernetes
   - CKAD
+  - CKS
 tags:
   - CKAD
   - Kubernetes
+  - CKS
 ---
 
 <!-- markdownlint-disable MD033 -->
