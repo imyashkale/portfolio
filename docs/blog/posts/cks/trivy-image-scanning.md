@@ -1,7 +1,7 @@
 ---
 title: Scanning Images with Trivy.
 icon: material/newspaper-variant-outline
-date: 2023-04-10 08:55:00
+date: 2024-05-20 08:55:00
 comments: true
 categories:
 - Kubernetes
