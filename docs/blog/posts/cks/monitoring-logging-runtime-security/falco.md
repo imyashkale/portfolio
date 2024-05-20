@@ -13,7 +13,7 @@ tags:
 
 <!-- markdownlint-disable MD033 -->
 <figure markdown="span">
-  ![CKA](../../../assets/img/falco.png){ width="300" }
+  ![CKA](../../../../assets/img/falco.png){ width="300" }
 </figure>
 
 ---
