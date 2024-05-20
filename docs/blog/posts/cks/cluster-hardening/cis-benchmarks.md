@@ -59,11 +59,11 @@ Let's fix an issue identified by Kube-bench:
 
 ### Steps to Fix
 
-#### 1. **Identify the Configuration File**:
+#### 1. **Identify the Configuration File**
 
 Locate the `kube-apiserver` configuration file, usually found in `/etc/kubernetes/manifests/kube-apiserver.yaml`.
 
-#### 2. **Edit the Configuration**:
+#### 2. **Edit the Configuration**
 
 Open the `kube-apiserver.yaml` file and add or modify the `--anonymous-auth` flag to be `false`.
 
