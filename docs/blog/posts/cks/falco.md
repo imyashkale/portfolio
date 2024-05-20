@@ -104,7 +104,13 @@ This command retrieves logs related to Falco (`-u falco`) and filters them for s
 
 ---
 
-### Restarting Falco Service
+### Interpreting Falco Logs
+
+Each log entry typically includes details such as the time of the event, the rule that triggered the event, and additional context like the process name or user involved. For example, a log entry might indicate that a shell was spawned in a container and provide information about the user and the command used to spawn the shell
+
+---
+
+## Restarting Falco Service
 
 To restart the Falco service, use the following command:
 
@@ -114,7 +120,9 @@ sudo systemctl restart falco
 
 This command stops and then starts the Falco service, applying any configuration changes or updates.
 
-### Starting Falco Service
+---
+
+## Starting Falco Service
 
 To start the Falco service if it's not running, use the following command:
 
@@ -124,7 +132,9 @@ sudo systemctl start falco
 
 This command starts the Falco service, which begins monitoring your system for security events.
 
-### Stopping Falco Service
+---
+
+## Stopping Falco Service
 
 To stop the Falco service, use the following command:
 
@@ -136,13 +146,7 @@ This command stops the Falco service, temporarily halting monitoring until the s
 
 ---
 
-### Interpreting Falco Logs
-
-Each log entry typically includes details such as the time of the event, the rule that triggered the event, and additional context like the process name or user involved. For example, a log entry might indicate that a shell was spawned in a container and provide information about the user and the command used to spawn the shell.
-
----
-
-### Responding to Falco Alerts
+## Responding to Falco Alerts
 
 When Falco detects a shell-related event, it generates an alert, which can be used to trigger automated responses or manual investigation. By monitoring Falco logs regularly, administrators can quickly identify and respond to security threats, helping to ensure the security of their Kubernetes environment.
 
