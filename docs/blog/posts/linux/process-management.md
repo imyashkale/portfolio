@@ -8,6 +8,7 @@ categories:
 tags:
   - Linux
 ---
+
 ## Introduction
 
 In Linux, a process is simply a program that is currently running. When you execute a command, it starts a process.
