@@ -26,7 +26,7 @@ In Phase 01 of my certification journey, I have successfully achieved key milest
 
 ## Phase 02
 
-Continuing my certification journey, Phase 02 has been successfully completed with the achievement of a significant milestone. This phase focused on deepening my expertise in infrastructure as code, particularly with Terraform, further enhancing my capabilities in cloud infrastructure management and deployment.
+Continuing my certification journey, Phase 02 has been successfully completed with the achievement of a significant milestone. This phase focused my expertise in infrastructure as code, particularly with Terraform, further enhancing my capabilities in cloud infrastructure management and deployment.
 
 | Certifications                                        | Completed Status    |
 |-------------------------------------------------------|:-------------------:|
@@ -40,7 +40,7 @@ Phase 03 of my certification journey is underway, focusing on mastering Kubernet
 
 | Certifications                                        | Completed Status    |
 |-------------------------------------------------------|:-------------------:|
-| CKAD: Certified Kubernetes Application Developer      | :material-check:    |
+| CKAD - Certified Kubernetes Application Developer     | :material-check:    |
 | CKA - Certified Kubernetes Administrator              | :material-check:    |
 | CKS - Certified Kubernetes Security Specialist        | :material-close:    |
 
@@ -77,8 +77,8 @@ Phase 06 of my certification journey is dedicated to mastering essential Kuberne
 
 | Certifications                                        | Completed Status    |
 |-------------------------------------------------------|:-------------------:|
-| CAPA - Certified Argo Project Associate - CAPA        | :material-close:    |
-| PCA  - Prometheus Certified Associate - PCA           | :material-close:    |
+| CAPA - Certified Argo Project Associate               | :material-close:    |
+| PCA  - Prometheus Certified Associate                 | :material-close:    |
 | ICA  - Istio Certified Associate                      | :material-close:    |
 | LFCS - Linux Foundation Certified System Administrator| :material-close:    |
 
