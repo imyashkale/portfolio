@@ -9,7 +9,7 @@
 A passionate software developer specializing in Golang, AWS, and Kubernetes. Explore my projects, insights, and journey in the world of coding and cloud technologies.
 
 - **Location:**  
-  Bengaluru, India 560037
+  Pune, India 411045
 
 - **Email:**  
   [imyashkale@gmail.com](mailto:imyashkale@gmail.com)
@@ -92,9 +92,15 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
 
 ## Experience
 
+### Site Reliability Engineer
+
+**<a href="https://www.arkoselabs.com" target="_blank">Arkose Labs</a>** - Pune, India (July 2024 to present)
+
+I have now joined Arkose Labs, a product-based startup, as a Site Reliability Engineer (SRE).
+
 ### Software Engineer
 
-**<a href="https://www.relanto.ai" target="_blank">Relanto Global Pvt Ltd</a>** - Bengaluru, India (Aug 2023 to Present)
+**<a href="https://www.relanto.ai" target="_blank">Relanto Global Pvt Ltd</a>** - Bengaluru, India (Aug 2023 to Jun 2024)
 
 !!! danger "Professional Transition"
     As part of a strategic organizational restructuring, my employment with SRS Business Solutions Pvt Ltd. was officially transferred to Relanto Global Pvt Ltd., effective from 1st August 2023. This transfer, aligned with the company's focus on innovation and business value-driven solutions, occurred without any interruption in service.
