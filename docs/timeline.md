@@ -28,7 +28,11 @@ This timeline illustrates my educational background and professional journey, un
 - **[SRS Business Solutions (India) (2022 - 2023):](https://www.srsconsultinginc.com/index){:target="_blank"}** Continued to expand my software engineering skills, working on diverse projects.
 !!! danger ""
     ⚠️ In 2023, I was transferred from SRS Business Solutions to Relanto Global based on a company decision. This was not a personal job switch but a transfer initiated by the company, as confirmed by a transfer letter from SRS.
-- **[Relanto Global (2023 - Present):](https://www.relanto.ai){:target="_blank"}** Currently enhancing my professional expertise, contributing to innovative software solutions.
+
+- **[Relanto Global (2023 - 2024):](https://www.relanto.ai){:target="_blank"}** Enhancing my professional expertise, contributing to innovative software solutions.
+
+- **[Arkose Labs (2024 - Present):](https://www.arkoselabs.com){:target="_blank"}**
+Currently working as a Site Reliability Engineer
 
 ---
 
