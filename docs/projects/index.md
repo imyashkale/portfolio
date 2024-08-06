@@ -5,53 +5,6 @@
 
 ---
 
-Welcome to the Projects section of my portfolio. Here, I showcase a variety of software development projects, demonstrating my expertise in Golang, AWS, Kubernetes, and more.
-
-## Featured Projects
-
-<!-- markdownlint-disable MD033 -->
-<div class="grid cards" markdown>
-
-- :fontawesome-brands-golang:{ .lg .middle } __URLify Hub__{ .card }
-
-    ---
-
-    __The Ultimate URL Shortner__  
-    The URL Shortener project employs a microservices architecture to efficiently manage and redirect URLs.
-
-    [:octicons-arrow-right-24: Explore More](urlify-hub.md)
-
-- :fontawesome-brands-golang:{ .lg .middle } __Microforge__
-
-    ---
-
-    __Simplifying Microservice Development__  
-    MicroForge is a command-line utility designed to streamline the process of creating and managing microservices.
-
-    [:octicons-arrow-right-24: Explore More](microforge.md)
-
-- :fontawesome-brands-golang:{ .lg .middle } __Infra__
-
-    ---
-
-    __For Running Bare Metal Kubernetes__  
-    Infra' is a meticulously crafted project that focuses on creating the infrastructure necessary for a bare metal Kubernetes cluster using Terraform on AWS EC2.
-
-    [:octicons-arrow-right-24: Explore More](infra.md)
-
-- :fontawesome-brands-golang:{ .lg .middle } __Scriptor__
-
-    ---
-
-    __Streamlining Script Management.__  
-    Scriptor is a command-line interface (CLI) tool that simplifies the process of managing and executing shell scripts from GitHub repositories.
-
-    [:octicons-arrow-right-24: Explore More](scriptor.md)
-
-</div>
-
----
-
 ## Golang Projects
 
 <!-- markdownlint-disable MD033 -->
