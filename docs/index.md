@@ -93,7 +93,7 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
 ??? success "Microsoft Certified: Azure Fundamentals"
     **Issued Date**: 05 Oct 2024  
     **Credential ID**: <a href="https://learn.microsoft.com/api/credentials/share/en-us/im-yashkale/AE3FC8FB4F1FDDAB?sharingId=3BDE513661F4967F" target="_blank">View on Microsoft Learn</a>  
-    **Download Certificate**: <a href="assets/certifications/azure-fundamentals.pdf" download="CKAD Certificate">Download Certificate</a>  
+    **Download Certificate**: <a href="assets/certifications/azure-fundamentals.pdf" download="Azure Fundamentals - AZ 900">Download Certificate</a>  
     **Motivation**: This certification demonstrates my fundamental understanding of Azure.
 
 ## Experience
