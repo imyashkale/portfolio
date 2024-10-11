@@ -2,7 +2,7 @@
 
 ---
 
-![Skills](assets/img/home-page-skills-banner-v2.jpg){ loading=lazy }
+![Skills](assets/img/banners/home-page-skills-v3.jpg){ loading=lazy }
 
 ---
 
