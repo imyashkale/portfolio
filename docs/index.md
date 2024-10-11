@@ -90,6 +90,12 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
     **Download Certificate**: <a href="assets/certifications/cloud-practitioner-certificate.pdf" download="cloud-practitioner-certificate.pdf">Download Certificate</a>  
     **Motivation**: This foundational certification has been key in establishing a solid base in AWS cloud services. It's enabled me to effectively collaborate across teams by understanding AWS cloud concepts, core services, and operational best practices, thereby enhancing team synergy and cloud strategy development.
 
+??? success "Microsoft Certified: Azure Fundamentals"
+    **Issued Date**: 05 Oct 2024  
+    **Credential ID**: <a href="https://learn.microsoft.com/api/credentials/share/en-us/im-yashkale/AE3FC8FB4F1FDDAB?sharingId=3BDE513661F4967F" target="_blank">View on Microsoft Learn</a>  
+    **Download Certificate**: <a href="assets/certifications/azure-fundamentals.pdf" download="CKAD Certificate">Download Certificate</a>  
+    **Motivation**: This certification demonstrates my fundamental understanding of Azure.
+
 ## Experience
 
 ### Site Reliability Engineer
