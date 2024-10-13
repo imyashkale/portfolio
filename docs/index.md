@@ -41,16 +41,16 @@ I hold a Bachelor of Science in Computer Science Engineering and am fluent in Ma
 
 ## Skills
 
-| Skill Categories          | Skills                                    |
-|---------------------------|-------------------------------------------|
-| Programming Languages     | Go                                        |
-| Cloud Solutions           | AWS                                       |
-| Container Orchestration   | Kubernetes, Docker                        |
-| Infrastructure as Code    | Terraform                                 |
-| Architectural Styles      | Event Driven Architecture, Serverless Architecture |
-| API Development           | REST API, Websockets, SSE                 |
-| Software Architecture     | Microservices                             |
-| Databases                 | MySQL, MongoDB, DynamoDB                  |
+| Skill Categories          | Skills                                            |
+|---------------------------|---------------------------------------------------|
+| Programming Languages     | Go                                                |
+| Cloud Solutions           | AWS, Azure                                        |
+| Container Orchestration   | Kubernetes, Docker                                |
+| Infrastructure as Code    | Terraform                                         |
+| Architectural Styles      | Event Driven Architecture, Serverless Architecture|
+| API Development           | REST API, Websockets, SSE                         |
+| Software Architecture     | Microservices                                     |
+| Databases                 | MySQL, MongoDB, DynamoDB                          |
 
 ## Certifications
 

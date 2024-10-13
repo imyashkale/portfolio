@@ -52,7 +52,7 @@ In Phase 04 of my certification journey, I am focusing on gaining expertise in M
 
 | Certifications                                        | Completed Status    |
 |-------------------------------------------------------|:-------------------:|
-| Azure - AZ 900 - Fundamentals                         | :material-close:    |
+| Azure - AZ 900 - Fundamentals                         | :material-check:    |
 | Azure - AZ 104 - Administrator Associate              | :material-close:    |
 | Azure - AZ 204 - Developer Associate                  | :material-close:    |
 | Azure - AZ 305 - Solutions Architect Expert           | :material-close:    |
