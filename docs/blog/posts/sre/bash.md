@@ -1,7 +1,7 @@
 ---
 title: Bash Shortcuts Cheat Sheet
 icon: material/newspaper-variant-outline
-date: 2023-11-18 13:34:01
+date: 2024-12-15 02:15:01
 comments: true
 categories:
   - Bash
@@ -9,6 +9,20 @@ categories:
 tags:
   - Bash
   - SRE
+---
+
+!! info Ensure that your terminal emulator is properly configured to treat the OPTION key as a modifier key (Meta key).
+
+    For macOS Terminal:
+        Open Terminal preferences (Cmd + ,).
+        Go to the Profiles tab and select your current profile.
+        Under the Keyboard tab, check the option Use Option as Meta key.
+        This setting ensures that the OPTION key is used as a modifier for key combinations like OPTION+B.
+    For iTerm2:
+        Open iTerm2 preferences (Cmd + ,).
+        Go to Profiles -> Keys.
+        Under Left Option Key (or Right Option Key), set it to Esc+ (this makes OPTION act like the Meta key).
+        Make sure that Send escape sequences is not causing unexpected behavior.
 ---
 
 ## Command Editing Shortcuts
