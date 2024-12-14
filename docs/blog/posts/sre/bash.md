@@ -70,5 +70,3 @@ tags:
 | `!*:p`         | Print what `!*` would substitute                                                           |
 
 ---
-
-Feel free to copy and modify this table to suit your needs.
