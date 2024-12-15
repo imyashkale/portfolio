@@ -51,6 +51,8 @@ jobs:
       with:
         name: website-artifact
         path: temp-artifact/
+        retention-days: 1
+
 
   deploy:
     name: Deployment
